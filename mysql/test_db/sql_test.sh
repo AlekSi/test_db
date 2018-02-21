@@ -40,7 +40,7 @@ function get_expected
                echo $count
            else
                echo $crc
-           fi 
+           fi
            return
         fi
     done
@@ -48,8 +48,8 @@ function get_expected
 
 printf "%-15s %-10s     %-15s \n" table count crc
 echo '--------------- ----------     ---------------'
-for T in $($MYSQL -BN -e 'show tables from employees') 
-do 
+for T in $($MYSQL -BN -e 'show tables from employees')
+do
     CRC_TEXT=$($MYSQL -BN -e "checksum table $T" employees)
     COUNT=$($MYSQL -BN -e "select count(*) from $T" employees)
     CRC=$(echo $CRC_TEXT | awk '{print $2}')
