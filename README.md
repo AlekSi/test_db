@@ -7,6 +7,9 @@ test_db is a repository and a Docker image with various example databases:
   * [Sakila](https://dev.mysql.com/doc/sakila/en/)
   * [Employees](https://github.com/datacharmer/test_db)
   * [Menagerie](https://dev.mysql.com/doc/index-other.html)
+* PostgreSQL
+  * [World](http://pgfoundry.org/projects/dbsamples/)
+  * [Pagila](http://pgfoundry.org/projects/dbsamples/)
 
 They can be used for example, tests, etc.
 
@@ -14,6 +17,10 @@ Docker image is build on top of busybox to make it explorable. It also exposes `
 
 
 ## Changelog
+
+### v1.1.0 - 2019-06-13
+
+* Add PostgreSQL databases: World and Pagila.
 
 ### v1.0.0 - 2018-02-21
 
