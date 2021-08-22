@@ -32,10 +32,8 @@ CREATE TABLE expected_values (
     recs int not null,
     crc_sha varchar(100) not null,
     crc_md5 varchar(100) not null
-) ENGINE=MyISAM;
+);
 
--- In MySQL 5.0, the creation and update time for  memory tables is not recorded
-/*!50130 ALTER TABLE expected_values engine=memory */;
 
 CREATE TABLE found_values LIKE expected_values;
 
@@ -55,7 +53,7 @@ INSERT INTO `expected_values` VALUES
 SELECT table_name, recs AS expected_records, crc_sha AS expected_crc FROM expected_values;
 
 DROP TABLE IF EXISTS tchecksum;
-CREATE TABLE tchecksum (chk char(100)) ENGINE=blackhole;
+CREATE TABLE tchecksum (chk char(100));
 
 SET @crc= '';
 
@@ -118,5 +116,3 @@ DROP TABLE expected_values,found_values;
 select 'CRC' as summary,  if(@crc_fail = 0, "OK", "FAIL" ) as 'result'
 union all
 select 'count', if(@count_fail = 0, "OK", "FAIL" ) as 'count';
-
-

@@ -23,6 +23,16 @@ The data was generated, and as such there are inconsistencies and subtle
 problems. Rather than removing them, we decided to leave the contents
 untouched, and use these issues as data cleaning exercises.
 
+## Prerequisites
+
+You need a MySQL database server (5.0+) and run the commands below through a
+user that has the following privileges:
+
+    SELECT, INSERT, UPDATE, DELETE,
+    CREATE, DROP, RELOAD, REFERENCES,
+    INDEX, ALTER, SHOW DATABASES,
+    CREATE TEMPORARY TABLES,
+    LOCK TABLES, EXECUTE, CREATE VIEW
 
 ## Installation:
 
@@ -89,7 +99,7 @@ For example:
 
 ## DISCLAIMER
 
-To the best of my knowledge, this data is fabricated, and
+To the best of my knowledge, this data is fabricated and
 it does not correspond to real people.
 Any similarity to existing people is purely coincidental.
 
@@ -101,5 +111,3 @@ To view a copy of this license, visit
 http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to
 Creative Commons, 171 Second Street, Suite 300, San Francisco,
 California, 94105, USA.
-
-

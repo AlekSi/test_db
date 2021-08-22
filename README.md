@@ -5,7 +5,7 @@ test_db is a repository and a Docker image with various example databases:
 * MySQL
   * [World and World X (for MySQL X plugin)](https://dev.mysql.com/doc/world-setup/en/)
   * [Sakila](https://dev.mysql.com/doc/sakila/en/)
-  * [Employees](https://github.com/datacharmer/test_db)
+  * [datacharmer/test_db a.k.a. Employees](https://github.com/datacharmer/test_db)
   * [Menagerie](https://dev.mysql.com/doc/index-other.html)
 * PostgreSQL
   * [World](http://pgfoundry.org/projects/dbsamples/)
@@ -18,9 +18,16 @@ Docker image is build on top of busybox to make it explorable. It also exposes `
 
 ## Changelog
 
+### v1.2.0 - not released yet
+
+* Updated MySQL databases:
+  * World and World X [from September 2016 to December 2019](https://dev.mysql.com/doc/world-setup/en/world-setup-history.html);
+  * Sakila [from 1.0 to 1.2](https://dev.mysql.com/doc/sakila/en/sakila-news.html);
+  * datacharmer/test_db a.k.a. Employees to [1.0.7](https://github.com/datacharmer/test_db/releases/tag/v1.0.7);
+
 ### v1.1.0 - 2019-06-13
 
-* Add PostgreSQL databases: World and Pagila.
+* Added PostgreSQL databases: World and Pagila.
 
 ### v1.0.0 - 2018-02-21
 
