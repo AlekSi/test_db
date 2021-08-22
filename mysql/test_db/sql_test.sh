@@ -69,4 +69,3 @@ do
     fi
     printf "%-15s %'10d     %'15d (%-7s %-7s)\n" $T $COUNT $CRC $COUNT_RESULT $CRC_RESULT
 done
-
