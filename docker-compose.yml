@@ -1,0 +1,37 @@
+---
+version: '3'
+
+services:
+  test_db:
+    build: .
+    image: aleksi/test_db:local
+    container_name: test_db_local
+    command: sleep 86400
+    volumes:
+      - test_db_mysql:/test_db/mysql/sakila/:ro
+      - test_db_postgresql:/test_db/postgresql/pagila/:ro
+
+  mysql:
+    image: mysql
+    container_name: test_db_mysql
+    ports:
+      - 127.0.0.1:3306:3306
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+    volumes:
+      - test_db_mysql:/docker-entrypoint-initdb.d/:ro
+
+  postgresql:
+    image: postgres
+    container_name: test_db_postgresql
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_DB=pagila
+    volumes:
+      - test_db_postgresql:/docker-entrypoint-initdb.d/:ro
+
+volumes:
+  test_db_mysql:
+  test_db_postgresql:
