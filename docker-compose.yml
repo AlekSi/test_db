@@ -8,8 +8,19 @@ services:
     container_name: test_db_local
     command: sleep 86400
     volumes:
+      - test_db_mongodb:/test_db/mongodb:ro
       - test_db_mysql:/test_db/mysql/sakila/:ro
       - test_db_postgresql:/test_db/postgresql/pagila/:ro
+
+  mongodb:
+    image: mongo
+    container_name: test_db_mongodb
+    ports:
+      - 127.0.0.1:27017:27017
+    environment:
+      - TZ=UTC
+    volumes:
+      - test_db_mongodb:/test_db:ro
 
   mysql:
     image: mysql
@@ -18,6 +29,7 @@ services:
       - 127.0.0.1:3306:3306
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=1
+      - TZ=UTC
     volumes:
       - test_db_mysql:/docker-entrypoint-initdb.d/:ro
 
@@ -29,9 +41,11 @@ services:
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
       - POSTGRES_DB=pagila
+      - TZ=UTC
     volumes:
       - test_db_postgresql:/docker-entrypoint-initdb.d/:ro
 
 volumes:
+  test_db_mongodb:
   test_db_mysql:
   test_db_postgresql:

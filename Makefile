@@ -12,4 +12,7 @@ mysql:
 psql:
 	docker compose exec postgresql psql --username postgres --dbname pagila
 
+mongosh:
+	docker compose exec mongodb mongosh mongodb://localhost/monila
+
 .PHONY: mysql

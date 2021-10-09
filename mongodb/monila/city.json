@@ -1,0 +1,600 @@
+{"_id":{"$oid":"612ec2800000000100000334"},"city_id":{"$numberInt":"1"},"city":"A Corua (La Corua)","country_id":{"$numberInt":"87"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000200000335"},"city_id":{"$numberInt":"2"},"city":"Abha","country_id":{"$numberInt":"82"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000300000336"},"city_id":{"$numberInt":"3"},"city":"Abu Dhabi","country_id":{"$numberInt":"101"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000400000337"},"city_id":{"$numberInt":"4"},"city":"Acua","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000500000338"},"city_id":{"$numberInt":"5"},"city":"Adana","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000600000339"},"city_id":{"$numberInt":"6"},"city":"Addis Abeba","country_id":{"$numberInt":"31"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000070000033a"},"city_id":{"$numberInt":"7"},"city":"Aden","country_id":{"$numberInt":"107"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000080000033b"},"city_id":{"$numberInt":"8"},"city":"Adoni","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000090000033c"},"city_id":{"$numberInt":"9"},"city":"Ahmadnagar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000a0000033d"},"city_id":{"$numberInt":"10"},"city":"Akishima","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000b0000033e"},"city_id":{"$numberInt":"11"},"city":"Akron","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000c0000033f"},"city_id":{"$numberInt":"12"},"city":"al-Ayn","country_id":{"$numberInt":"101"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000d00000340"},"city_id":{"$numberInt":"13"},"city":"al-Hawiya","country_id":{"$numberInt":"82"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000e00000341"},"city_id":{"$numberInt":"14"},"city":"al-Manama","country_id":{"$numberInt":"11"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000000f00000342"},"city_id":{"$numberInt":"15"},"city":"al-Qadarif","country_id":{"$numberInt":"89"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001000000343"},"city_id":{"$numberInt":"16"},"city":"al-Qatif","country_id":{"$numberInt":"82"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001100000344"},"city_id":{"$numberInt":"17"},"city":"Alessandria","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001200000345"},"city_id":{"$numberInt":"18"},"city":"Allappuzha (Alleppey)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001300000346"},"city_id":{"$numberInt":"19"},"city":"Allende","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001400000347"},"city_id":{"$numberInt":"20"},"city":"Almirante Brown","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001500000348"},"city_id":{"$numberInt":"21"},"city":"Alvorada","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001600000349"},"city_id":{"$numberInt":"22"},"city":"Ambattur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000170000034a"},"city_id":{"$numberInt":"23"},"city":"Amersfoort","country_id":{"$numberInt":"67"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000180000034b"},"city_id":{"$numberInt":"24"},"city":"Amroha","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000190000034c"},"city_id":{"$numberInt":"25"},"city":"Angra dos Reis","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001a0000034d"},"city_id":{"$numberInt":"26"},"city":"Anpolis","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001b0000034e"},"city_id":{"$numberInt":"27"},"city":"Antofagasta","country_id":{"$numberInt":"22"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001c0000034f"},"city_id":{"$numberInt":"28"},"city":"Aparecida de Goinia","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001d00000350"},"city_id":{"$numberInt":"29"},"city":"Apeldoorn","country_id":{"$numberInt":"67"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001e00000351"},"city_id":{"$numberInt":"30"},"city":"Araatuba","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000001f00000352"},"city_id":{"$numberInt":"31"},"city":"Arak","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002000000353"},"city_id":{"$numberInt":"32"},"city":"Arecibo","country_id":{"$numberInt":"77"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002100000354"},"city_id":{"$numberInt":"33"},"city":"Arlington","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002200000355"},"city_id":{"$numberInt":"34"},"city":"Ashdod","country_id":{"$numberInt":"48"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002300000356"},"city_id":{"$numberInt":"35"},"city":"Ashgabat","country_id":{"$numberInt":"98"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002400000357"},"city_id":{"$numberInt":"36"},"city":"Ashqelon","country_id":{"$numberInt":"48"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002500000358"},"city_id":{"$numberInt":"37"},"city":"Asuncin","country_id":{"$numberInt":"73"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002600000359"},"city_id":{"$numberInt":"38"},"city":"Athenai","country_id":{"$numberInt":"39"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000270000035a"},"city_id":{"$numberInt":"39"},"city":"Atinsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000280000035b"},"city_id":{"$numberInt":"40"},"city":"Atlixco","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000290000035c"},"city_id":{"$numberInt":"41"},"city":"Augusta-Richmond County","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002a0000035d"},"city_id":{"$numberInt":"42"},"city":"Aurora","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002b0000035e"},"city_id":{"$numberInt":"43"},"city":"Avellaneda","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002c0000035f"},"city_id":{"$numberInt":"44"},"city":"Bag","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002d00000360"},"city_id":{"$numberInt":"45"},"city":"Baha Blanca","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002e00000361"},"city_id":{"$numberInt":"46"},"city":"Baicheng","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000002f00000362"},"city_id":{"$numberInt":"47"},"city":"Baiyin","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003000000363"},"city_id":{"$numberInt":"48"},"city":"Baku","country_id":{"$numberInt":"10"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003100000364"},"city_id":{"$numberInt":"49"},"city":"Balaiha","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003200000365"},"city_id":{"$numberInt":"50"},"city":"Balikesir","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003300000366"},"city_id":{"$numberInt":"51"},"city":"Balurghat","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003400000367"},"city_id":{"$numberInt":"52"},"city":"Bamenda","country_id":{"$numberInt":"19"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003500000368"},"city_id":{"$numberInt":"53"},"city":"Bandar Seri Begawan","country_id":{"$numberInt":"16"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003600000369"},"city_id":{"$numberInt":"54"},"city":"Banjul","country_id":{"$numberInt":"37"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000370000036a"},"city_id":{"$numberInt":"55"},"city":"Barcelona","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000380000036b"},"city_id":{"$numberInt":"56"},"city":"Basel","country_id":{"$numberInt":"91"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000390000036c"},"city_id":{"$numberInt":"57"},"city":"Bat Yam","country_id":{"$numberInt":"48"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003a0000036d"},"city_id":{"$numberInt":"58"},"city":"Batman","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003b0000036e"},"city_id":{"$numberInt":"59"},"city":"Batna","country_id":{"$numberInt":"2"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003c0000036f"},"city_id":{"$numberInt":"60"},"city":"Battambang","country_id":{"$numberInt":"18"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003d00000370"},"city_id":{"$numberInt":"61"},"city":"Baybay","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003e00000371"},"city_id":{"$numberInt":"62"},"city":"Bayugan","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000003f00000372"},"city_id":{"$numberInt":"63"},"city":"Bchar","country_id":{"$numberInt":"2"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004000000373"},"city_id":{"$numberInt":"64"},"city":"Beira","country_id":{"$numberInt":"63"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004100000374"},"city_id":{"$numberInt":"65"},"city":"Bellevue","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004200000375"},"city_id":{"$numberInt":"66"},"city":"Belm","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004300000376"},"city_id":{"$numberInt":"67"},"city":"Benguela","country_id":{"$numberInt":"4"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004400000377"},"city_id":{"$numberInt":"68"},"city":"Beni-Mellal","country_id":{"$numberInt":"62"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004500000378"},"city_id":{"$numberInt":"69"},"city":"Benin City","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004600000379"},"city_id":{"$numberInt":"70"},"city":"Bergamo","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000470000037a"},"city_id":{"$numberInt":"71"},"city":"Berhampore (Baharampur)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000480000037b"},"city_id":{"$numberInt":"72"},"city":"Bern","country_id":{"$numberInt":"91"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000490000037c"},"city_id":{"$numberInt":"73"},"city":"Bhavnagar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004a0000037d"},"city_id":{"$numberInt":"74"},"city":"Bhilwara","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004b0000037e"},"city_id":{"$numberInt":"75"},"city":"Bhimavaram","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004c0000037f"},"city_id":{"$numberInt":"76"},"city":"Bhopal","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004d00000380"},"city_id":{"$numberInt":"77"},"city":"Bhusawal","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004e00000381"},"city_id":{"$numberInt":"78"},"city":"Bijapur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000004f00000382"},"city_id":{"$numberInt":"79"},"city":"Bilbays","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005000000383"},"city_id":{"$numberInt":"80"},"city":"Binzhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005100000384"},"city_id":{"$numberInt":"81"},"city":"Birgunj","country_id":{"$numberInt":"66"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005200000385"},"city_id":{"$numberInt":"82"},"city":"Bislig","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005300000386"},"city_id":{"$numberInt":"83"},"city":"Blumenau","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005400000387"},"city_id":{"$numberInt":"84"},"city":"Boa Vista","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005500000388"},"city_id":{"$numberInt":"85"},"city":"Boksburg","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005600000389"},"city_id":{"$numberInt":"86"},"city":"Botosani","country_id":{"$numberInt":"78"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000570000038a"},"city_id":{"$numberInt":"87"},"city":"Botshabelo","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000580000038b"},"city_id":{"$numberInt":"88"},"city":"Bradford","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000590000038c"},"city_id":{"$numberInt":"89"},"city":"Braslia","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005a0000038d"},"city_id":{"$numberInt":"90"},"city":"Bratislava","country_id":{"$numberInt":"84"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005b0000038e"},"city_id":{"$numberInt":"91"},"city":"Brescia","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005c0000038f"},"city_id":{"$numberInt":"92"},"city":"Brest","country_id":{"$numberInt":"34"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005d00000390"},"city_id":{"$numberInt":"93"},"city":"Brindisi","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005e00000391"},"city_id":{"$numberInt":"94"},"city":"Brockton","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000005f00000392"},"city_id":{"$numberInt":"95"},"city":"Bucuresti","country_id":{"$numberInt":"78"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006000000393"},"city_id":{"$numberInt":"96"},"city":"Buenaventura","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006100000394"},"city_id":{"$numberInt":"97"},"city":"Bydgoszcz","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006200000395"},"city_id":{"$numberInt":"98"},"city":"Cabuyao","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006300000396"},"city_id":{"$numberInt":"99"},"city":"Callao","country_id":{"$numberInt":"74"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006400000397"},"city_id":{"$numberInt":"100"},"city":"Cam Ranh","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006500000398"},"city_id":{"$numberInt":"101"},"city":"Cape Coral","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006600000399"},"city_id":{"$numberInt":"102"},"city":"Caracas","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000670000039a"},"city_id":{"$numberInt":"103"},"city":"Carmen","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000680000039b"},"city_id":{"$numberInt":"104"},"city":"Cavite","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000690000039c"},"city_id":{"$numberInt":"105"},"city":"Cayenne","country_id":{"$numberInt":"35"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006a0000039d"},"city_id":{"$numberInt":"106"},"city":"Celaya","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006b0000039e"},"city_id":{"$numberInt":"107"},"city":"Chandrapur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006c0000039f"},"city_id":{"$numberInt":"108"},"city":"Changhwa","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006d000003a0"},"city_id":{"$numberInt":"109"},"city":"Changzhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006e000003a1"},"city_id":{"$numberInt":"110"},"city":"Chapra","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000006f000003a2"},"city_id":{"$numberInt":"111"},"city":"Charlotte Amalie","country_id":{"$numberInt":"106"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000070000003a3"},"city_id":{"$numberInt":"112"},"city":"Chatsworth","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000071000003a4"},"city_id":{"$numberInt":"113"},"city":"Cheju","country_id":{"$numberInt":"86"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000072000003a5"},"city_id":{"$numberInt":"114"},"city":"Chiayi","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000073000003a6"},"city_id":{"$numberInt":"115"},"city":"Chisinau","country_id":{"$numberInt":"61"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000074000003a7"},"city_id":{"$numberInt":"116"},"city":"Chungho","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000075000003a8"},"city_id":{"$numberInt":"117"},"city":"Cianjur","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000076000003a9"},"city_id":{"$numberInt":"118"},"city":"Ciomas","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000077000003aa"},"city_id":{"$numberInt":"119"},"city":"Ciparay","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000078000003ab"},"city_id":{"$numberInt":"120"},"city":"Citrus Heights","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000079000003ac"},"city_id":{"$numberInt":"121"},"city":"Citt del Vaticano","country_id":{"$numberInt":"41"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007a000003ad"},"city_id":{"$numberInt":"122"},"city":"Ciudad del Este","country_id":{"$numberInt":"73"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007b000003ae"},"city_id":{"$numberInt":"123"},"city":"Clarksville","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007c000003af"},"city_id":{"$numberInt":"124"},"city":"Coacalco de Berriozbal","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007d000003b0"},"city_id":{"$numberInt":"125"},"city":"Coatzacoalcos","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007e000003b1"},"city_id":{"$numberInt":"126"},"city":"Compton","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000007f000003b2"},"city_id":{"$numberInt":"127"},"city":"Coquimbo","country_id":{"$numberInt":"22"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000080000003b3"},"city_id":{"$numberInt":"128"},"city":"Crdoba","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000081000003b4"},"city_id":{"$numberInt":"129"},"city":"Cuauhtmoc","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000082000003b5"},"city_id":{"$numberInt":"130"},"city":"Cuautla","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000083000003b6"},"city_id":{"$numberInt":"131"},"city":"Cuernavaca","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000084000003b7"},"city_id":{"$numberInt":"132"},"city":"Cuman","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000085000003b8"},"city_id":{"$numberInt":"133"},"city":"Czestochowa","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000086000003b9"},"city_id":{"$numberInt":"134"},"city":"Dadu","country_id":{"$numberInt":"72"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000087000003ba"},"city_id":{"$numberInt":"135"},"city":"Dallas","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000088000003bb"},"city_id":{"$numberInt":"136"},"city":"Datong","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000089000003bc"},"city_id":{"$numberInt":"137"},"city":"Daugavpils","country_id":{"$numberInt":"54"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008a000003bd"},"city_id":{"$numberInt":"138"},"city":"Davao","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008b000003be"},"city_id":{"$numberInt":"139"},"city":"Daxian","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008c000003bf"},"city_id":{"$numberInt":"140"},"city":"Dayton","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008d000003c0"},"city_id":{"$numberInt":"141"},"city":"Deba Habe","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008e000003c1"},"city_id":{"$numberInt":"142"},"city":"Denizli","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000008f000003c2"},"city_id":{"$numberInt":"143"},"city":"Dhaka","country_id":{"$numberInt":"12"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000090000003c3"},"city_id":{"$numberInt":"144"},"city":"Dhule (Dhulia)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000091000003c4"},"city_id":{"$numberInt":"145"},"city":"Dongying","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000092000003c5"},"city_id":{"$numberInt":"146"},"city":"Donostia-San Sebastin","country_id":{"$numberInt":"87"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000093000003c6"},"city_id":{"$numberInt":"147"},"city":"Dos Quebradas","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000094000003c7"},"city_id":{"$numberInt":"148"},"city":"Duisburg","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000095000003c8"},"city_id":{"$numberInt":"149"},"city":"Dundee","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000096000003c9"},"city_id":{"$numberInt":"150"},"city":"Dzerzinsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000097000003ca"},"city_id":{"$numberInt":"151"},"city":"Ede","country_id":{"$numberInt":"67"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000098000003cb"},"city_id":{"$numberInt":"152"},"city":"Effon-Alaiye","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000099000003cc"},"city_id":{"$numberInt":"153"},"city":"El Alto","country_id":{"$numberInt":"14"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009a000003cd"},"city_id":{"$numberInt":"154"},"city":"El Fuerte","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009b000003ce"},"city_id":{"$numberInt":"155"},"city":"El Monte","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009c000003cf"},"city_id":{"$numberInt":"156"},"city":"Elista","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009d000003d0"},"city_id":{"$numberInt":"157"},"city":"Emeishan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009e000003d1"},"city_id":{"$numberInt":"158"},"city":"Emmen","country_id":{"$numberInt":"67"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000009f000003d2"},"city_id":{"$numberInt":"159"},"city":"Enshi","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a0000003d3"},"city_id":{"$numberInt":"160"},"city":"Erlangen","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a1000003d4"},"city_id":{"$numberInt":"161"},"city":"Escobar","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a2000003d5"},"city_id":{"$numberInt":"162"},"city":"Esfahan","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a3000003d6"},"city_id":{"$numberInt":"163"},"city":"Eskisehir","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a4000003d7"},"city_id":{"$numberInt":"164"},"city":"Etawah","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a5000003d8"},"city_id":{"$numberInt":"165"},"city":"Ezeiza","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a6000003d9"},"city_id":{"$numberInt":"166"},"city":"Ezhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a7000003da"},"city_id":{"$numberInt":"167"},"city":"Faaa","country_id":{"$numberInt":"36"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a8000003db"},"city_id":{"$numberInt":"168"},"city":"Fengshan","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000a9000003dc"},"city_id":{"$numberInt":"169"},"city":"Firozabad","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000aa000003dd"},"city_id":{"$numberInt":"170"},"city":"Florencia","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ab000003de"},"city_id":{"$numberInt":"171"},"city":"Fontana","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ac000003df"},"city_id":{"$numberInt":"172"},"city":"Fukuyama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ad000003e0"},"city_id":{"$numberInt":"173"},"city":"Funafuti","country_id":{"$numberInt":"99"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ae000003e1"},"city_id":{"$numberInt":"174"},"city":"Fuyu","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000af000003e2"},"city_id":{"$numberInt":"175"},"city":"Fuzhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b0000003e3"},"city_id":{"$numberInt":"176"},"city":"Gandhinagar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b1000003e4"},"city_id":{"$numberInt":"177"},"city":"Garden Grove","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b2000003e5"},"city_id":{"$numberInt":"178"},"city":"Garland","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b3000003e6"},"city_id":{"$numberInt":"179"},"city":"Gatineau","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b4000003e7"},"city_id":{"$numberInt":"180"},"city":"Gaziantep","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b5000003e8"},"city_id":{"$numberInt":"181"},"city":"Gijn","country_id":{"$numberInt":"87"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b6000003e9"},"city_id":{"$numberInt":"182"},"city":"Gingoog","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b7000003ea"},"city_id":{"$numberInt":"183"},"city":"Goinia","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b8000003eb"},"city_id":{"$numberInt":"184"},"city":"Gorontalo","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000b9000003ec"},"city_id":{"$numberInt":"185"},"city":"Grand Prairie","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ba000003ed"},"city_id":{"$numberInt":"186"},"city":"Graz","country_id":{"$numberInt":"9"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000bb000003ee"},"city_id":{"$numberInt":"187"},"city":"Greensboro","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000bc000003ef"},"city_id":{"$numberInt":"188"},"city":"Guadalajara","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000bd000003f0"},"city_id":{"$numberInt":"189"},"city":"Guaruj","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000be000003f1"},"city_id":{"$numberInt":"190"},"city":"guas Lindas de Gois","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000bf000003f2"},"city_id":{"$numberInt":"191"},"city":"Gulbarga","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c0000003f3"},"city_id":{"$numberInt":"192"},"city":"Hagonoy","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c1000003f4"},"city_id":{"$numberInt":"193"},"city":"Haining","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c2000003f5"},"city_id":{"$numberInt":"194"},"city":"Haiphong","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c3000003f6"},"city_id":{"$numberInt":"195"},"city":"Haldia","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c4000003f7"},"city_id":{"$numberInt":"196"},"city":"Halifax","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c5000003f8"},"city_id":{"$numberInt":"197"},"city":"Halisahar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c6000003f9"},"city_id":{"$numberInt":"198"},"city":"Halle/Saale","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c7000003fa"},"city_id":{"$numberInt":"199"},"city":"Hami","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c8000003fb"},"city_id":{"$numberInt":"200"},"city":"Hamilton","country_id":{"$numberInt":"68"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000c9000003fc"},"city_id":{"$numberInt":"201"},"city":"Hanoi","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ca000003fd"},"city_id":{"$numberInt":"202"},"city":"Hidalgo","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000cb000003fe"},"city_id":{"$numberInt":"203"},"city":"Higashiosaka","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000cc000003ff"},"city_id":{"$numberInt":"204"},"city":"Hino","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000cd00000400"},"city_id":{"$numberInt":"205"},"city":"Hiroshima","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ce00000401"},"city_id":{"$numberInt":"206"},"city":"Hodeida","country_id":{"$numberInt":"107"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000cf00000402"},"city_id":{"$numberInt":"207"},"city":"Hohhot","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d000000403"},"city_id":{"$numberInt":"208"},"city":"Hoshiarpur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d100000404"},"city_id":{"$numberInt":"209"},"city":"Hsichuh","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d200000405"},"city_id":{"$numberInt":"210"},"city":"Huaian","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d300000406"},"city_id":{"$numberInt":"211"},"city":"Hubli-Dharwad","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d400000407"},"city_id":{"$numberInt":"212"},"city":"Huejutla de Reyes","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d500000408"},"city_id":{"$numberInt":"213"},"city":"Huixquilucan","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d600000409"},"city_id":{"$numberInt":"214"},"city":"Hunuco","country_id":{"$numberInt":"74"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d70000040a"},"city_id":{"$numberInt":"215"},"city":"Ibirit","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d80000040b"},"city_id":{"$numberInt":"216"},"city":"Idfu","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000d90000040c"},"city_id":{"$numberInt":"217"},"city":"Ife","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000da0000040d"},"city_id":{"$numberInt":"218"},"city":"Ikerre","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000db0000040e"},"city_id":{"$numberInt":"219"},"city":"Iligan","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000dc0000040f"},"city_id":{"$numberInt":"220"},"city":"Ilorin","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000dd00000410"},"city_id":{"$numberInt":"221"},"city":"Imus","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000de00000411"},"city_id":{"$numberInt":"222"},"city":"Inegl","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000df00000412"},"city_id":{"$numberInt":"223"},"city":"Ipoh","country_id":{"$numberInt":"59"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e000000413"},"city_id":{"$numberInt":"224"},"city":"Isesaki","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e100000414"},"city_id":{"$numberInt":"225"},"city":"Ivanovo","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e200000415"},"city_id":{"$numberInt":"226"},"city":"Iwaki","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e300000416"},"city_id":{"$numberInt":"227"},"city":"Iwakuni","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e400000417"},"city_id":{"$numberInt":"228"},"city":"Iwatsuki","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e500000418"},"city_id":{"$numberInt":"229"},"city":"Izumisano","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e600000419"},"city_id":{"$numberInt":"230"},"city":"Jaffna","country_id":{"$numberInt":"88"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e70000041a"},"city_id":{"$numberInt":"231"},"city":"Jaipur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e80000041b"},"city_id":{"$numberInt":"232"},"city":"Jakarta","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000e90000041c"},"city_id":{"$numberInt":"233"},"city":"Jalib al-Shuyukh","country_id":{"$numberInt":"53"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ea0000041d"},"city_id":{"$numberInt":"234"},"city":"Jamalpur","country_id":{"$numberInt":"12"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000eb0000041e"},"city_id":{"$numberInt":"235"},"city":"Jaroslavl","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ec0000041f"},"city_id":{"$numberInt":"236"},"city":"Jastrzebie-Zdrj","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ed00000420"},"city_id":{"$numberInt":"237"},"city":"Jedda","country_id":{"$numberInt":"82"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ee00000421"},"city_id":{"$numberInt":"238"},"city":"Jelets","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ef00000422"},"city_id":{"$numberInt":"239"},"city":"Jhansi","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f000000423"},"city_id":{"$numberInt":"240"},"city":"Jinchang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f100000424"},"city_id":{"$numberInt":"241"},"city":"Jining","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f200000425"},"city_id":{"$numberInt":"242"},"city":"Jinzhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f300000426"},"city_id":{"$numberInt":"243"},"city":"Jodhpur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f400000427"},"city_id":{"$numberInt":"244"},"city":"Johannesburg","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f500000428"},"city_id":{"$numberInt":"245"},"city":"Joliet","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f600000429"},"city_id":{"$numberInt":"246"},"city":"Jos Azueta","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f70000042a"},"city_id":{"$numberInt":"247"},"city":"Juazeiro do Norte","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f80000042b"},"city_id":{"$numberInt":"248"},"city":"Juiz de Fora","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000f90000042c"},"city_id":{"$numberInt":"249"},"city":"Junan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000fa0000042d"},"city_id":{"$numberInt":"250"},"city":"Jurez","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000fb0000042e"},"city_id":{"$numberInt":"251"},"city":"Kabul","country_id":{"$numberInt":"1"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000fc0000042f"},"city_id":{"$numberInt":"252"},"city":"Kaduna","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000fd00000430"},"city_id":{"$numberInt":"253"},"city":"Kakamigahara","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000fe00000431"},"city_id":{"$numberInt":"254"},"city":"Kaliningrad","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000000ff00000432"},"city_id":{"$numberInt":"255"},"city":"Kalisz","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010000000433"},"city_id":{"$numberInt":"256"},"city":"Kamakura","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010100000434"},"city_id":{"$numberInt":"257"},"city":"Kamarhati","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010200000435"},"city_id":{"$numberInt":"258"},"city":"Kamjanets-Podilskyi","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010300000436"},"city_id":{"$numberInt":"259"},"city":"Kamyin","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010400000437"},"city_id":{"$numberInt":"260"},"city":"Kanazawa","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010500000438"},"city_id":{"$numberInt":"261"},"city":"Kanchrapara","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010600000439"},"city_id":{"$numberInt":"262"},"city":"Kansas City","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001070000043a"},"city_id":{"$numberInt":"263"},"city":"Karnal","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001080000043b"},"city_id":{"$numberInt":"264"},"city":"Katihar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001090000043c"},"city_id":{"$numberInt":"265"},"city":"Kermanshah","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010a0000043d"},"city_id":{"$numberInt":"266"},"city":"Kilis","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010b0000043e"},"city_id":{"$numberInt":"267"},"city":"Kimberley","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010c0000043f"},"city_id":{"$numberInt":"268"},"city":"Kimchon","country_id":{"$numberInt":"86"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010d00000440"},"city_id":{"$numberInt":"269"},"city":"Kingstown","country_id":{"$numberInt":"81"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010e00000441"},"city_id":{"$numberInt":"270"},"city":"Kirovo-Tepetsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000010f00000442"},"city_id":{"$numberInt":"271"},"city":"Kisumu","country_id":{"$numberInt":"52"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011000000443"},"city_id":{"$numberInt":"272"},"city":"Kitwe","country_id":{"$numberInt":"109"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011100000444"},"city_id":{"$numberInt":"273"},"city":"Klerksdorp","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011200000445"},"city_id":{"$numberInt":"274"},"city":"Kolpino","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011300000446"},"city_id":{"$numberInt":"275"},"city":"Konotop","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011400000447"},"city_id":{"$numberInt":"276"},"city":"Koriyama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011500000448"},"city_id":{"$numberInt":"277"},"city":"Korla","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011600000449"},"city_id":{"$numberInt":"278"},"city":"Korolev","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001170000044a"},"city_id":{"$numberInt":"279"},"city":"Kowloon and New Kowloon","country_id":{"$numberInt":"42"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001180000044b"},"city_id":{"$numberInt":"280"},"city":"Kragujevac","country_id":{"$numberInt":"108"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001190000044c"},"city_id":{"$numberInt":"281"},"city":"Ktahya","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011a0000044d"},"city_id":{"$numberInt":"282"},"city":"Kuching","country_id":{"$numberInt":"59"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011b0000044e"},"city_id":{"$numberInt":"283"},"city":"Kumbakonam","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011c0000044f"},"city_id":{"$numberInt":"284"},"city":"Kurashiki","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011d00000450"},"city_id":{"$numberInt":"285"},"city":"Kurgan","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011e00000451"},"city_id":{"$numberInt":"286"},"city":"Kursk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000011f00000452"},"city_id":{"$numberInt":"287"},"city":"Kuwana","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012000000453"},"city_id":{"$numberInt":"288"},"city":"La Paz","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012100000454"},"city_id":{"$numberInt":"289"},"city":"La Plata","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012200000455"},"city_id":{"$numberInt":"290"},"city":"La Romana","country_id":{"$numberInt":"27"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012300000456"},"city_id":{"$numberInt":"291"},"city":"Laiwu","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012400000457"},"city_id":{"$numberInt":"292"},"city":"Lancaster","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012500000458"},"city_id":{"$numberInt":"293"},"city":"Laohekou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012600000459"},"city_id":{"$numberInt":"294"},"city":"Lapu-Lapu","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001270000045a"},"city_id":{"$numberInt":"295"},"city":"Laredo","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001280000045b"},"city_id":{"$numberInt":"296"},"city":"Lausanne","country_id":{"$numberInt":"91"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001290000045c"},"city_id":{"$numberInt":"297"},"city":"Le Mans","country_id":{"$numberInt":"34"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012a0000045d"},"city_id":{"$numberInt":"298"},"city":"Lengshuijiang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012b0000045e"},"city_id":{"$numberInt":"299"},"city":"Leshan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012c0000045f"},"city_id":{"$numberInt":"300"},"city":"Lethbridge","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012d00000460"},"city_id":{"$numberInt":"301"},"city":"Lhokseumawe","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012e00000461"},"city_id":{"$numberInt":"302"},"city":"Liaocheng","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000012f00000462"},"city_id":{"$numberInt":"303"},"city":"Liepaja","country_id":{"$numberInt":"54"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013000000463"},"city_id":{"$numberInt":"304"},"city":"Lilongwe","country_id":{"$numberInt":"58"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013100000464"},"city_id":{"$numberInt":"305"},"city":"Lima","country_id":{"$numberInt":"74"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013200000465"},"city_id":{"$numberInt":"306"},"city":"Lincoln","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013300000466"},"city_id":{"$numberInt":"307"},"city":"Linz","country_id":{"$numberInt":"9"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013400000467"},"city_id":{"$numberInt":"308"},"city":"Lipetsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013500000468"},"city_id":{"$numberInt":"309"},"city":"Livorno","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013600000469"},"city_id":{"$numberInt":"310"},"city":"Ljubertsy","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001370000046a"},"city_id":{"$numberInt":"311"},"city":"Loja","country_id":{"$numberInt":"28"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001380000046b"},"city_id":{"$numberInt":"312"},"city":"London","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001390000046c"},"city_id":{"$numberInt":"313"},"city":"London","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013a0000046d"},"city_id":{"$numberInt":"314"},"city":"Lublin","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013b0000046e"},"city_id":{"$numberInt":"315"},"city":"Lubumbashi","country_id":{"$numberInt":"25"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013c0000046f"},"city_id":{"$numberInt":"316"},"city":"Lungtan","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013d00000470"},"city_id":{"$numberInt":"317"},"city":"Luzinia","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013e00000471"},"city_id":{"$numberInt":"318"},"city":"Madiun","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000013f00000472"},"city_id":{"$numberInt":"319"},"city":"Mahajanga","country_id":{"$numberInt":"57"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014000000473"},"city_id":{"$numberInt":"320"},"city":"Maikop","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014100000474"},"city_id":{"$numberInt":"321"},"city":"Malm","country_id":{"$numberInt":"90"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014200000475"},"city_id":{"$numberInt":"322"},"city":"Manchester","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014300000476"},"city_id":{"$numberInt":"323"},"city":"Mandaluyong","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014400000477"},"city_id":{"$numberInt":"324"},"city":"Mandi Bahauddin","country_id":{"$numberInt":"72"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014500000478"},"city_id":{"$numberInt":"325"},"city":"Mannheim","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014600000479"},"city_id":{"$numberInt":"326"},"city":"Maracabo","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001470000047a"},"city_id":{"$numberInt":"327"},"city":"Mardan","country_id":{"$numberInt":"72"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001480000047b"},"city_id":{"$numberInt":"328"},"city":"Maring","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001490000047c"},"city_id":{"$numberInt":"329"},"city":"Masqat","country_id":{"$numberInt":"71"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014a0000047d"},"city_id":{"$numberInt":"330"},"city":"Matamoros","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014b0000047e"},"city_id":{"$numberInt":"331"},"city":"Matsue","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014c0000047f"},"city_id":{"$numberInt":"332"},"city":"Meixian","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014d00000480"},"city_id":{"$numberInt":"333"},"city":"Memphis","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014e00000481"},"city_id":{"$numberInt":"334"},"city":"Merlo","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000014f00000482"},"city_id":{"$numberInt":"335"},"city":"Mexicali","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015000000483"},"city_id":{"$numberInt":"336"},"city":"Miraj","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015100000484"},"city_id":{"$numberInt":"337"},"city":"Mit Ghamr","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015200000485"},"city_id":{"$numberInt":"338"},"city":"Miyakonojo","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015300000486"},"city_id":{"$numberInt":"339"},"city":"Mogiljov","country_id":{"$numberInt":"13"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015400000487"},"city_id":{"$numberInt":"340"},"city":"Molodetno","country_id":{"$numberInt":"13"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015500000488"},"city_id":{"$numberInt":"341"},"city":"Monclova","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015600000489"},"city_id":{"$numberInt":"342"},"city":"Monywa","country_id":{"$numberInt":"64"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001570000048a"},"city_id":{"$numberInt":"343"},"city":"Moscow","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001580000048b"},"city_id":{"$numberInt":"344"},"city":"Mosul","country_id":{"$numberInt":"47"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001590000048c"},"city_id":{"$numberInt":"345"},"city":"Mukateve","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015a0000048d"},"city_id":{"$numberInt":"346"},"city":"Munger (Monghyr)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015b0000048e"},"city_id":{"$numberInt":"347"},"city":"Mwanza","country_id":{"$numberInt":"93"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015c0000048f"},"city_id":{"$numberInt":"348"},"city":"Mwene-Ditu","country_id":{"$numberInt":"25"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015d00000490"},"city_id":{"$numberInt":"349"},"city":"Myingyan","country_id":{"$numberInt":"64"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015e00000491"},"city_id":{"$numberInt":"350"},"city":"Mysore","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000015f00000492"},"city_id":{"$numberInt":"351"},"city":"Naala-Porto","country_id":{"$numberInt":"63"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016000000493"},"city_id":{"$numberInt":"352"},"city":"Nabereznyje Telny","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016100000494"},"city_id":{"$numberInt":"353"},"city":"Nador","country_id":{"$numberInt":"62"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016200000495"},"city_id":{"$numberInt":"354"},"city":"Nagaon","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016300000496"},"city_id":{"$numberInt":"355"},"city":"Nagareyama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016400000497"},"city_id":{"$numberInt":"356"},"city":"Najafabad","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016500000498"},"city_id":{"$numberInt":"357"},"city":"Naju","country_id":{"$numberInt":"86"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016600000499"},"city_id":{"$numberInt":"358"},"city":"Nakhon Sawan","country_id":{"$numberInt":"94"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001670000049a"},"city_id":{"$numberInt":"359"},"city":"Nam Dinh","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001680000049b"},"city_id":{"$numberInt":"360"},"city":"Namibe","country_id":{"$numberInt":"4"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001690000049c"},"city_id":{"$numberInt":"361"},"city":"Nantou","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016a0000049d"},"city_id":{"$numberInt":"362"},"city":"Nanyang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016b0000049e"},"city_id":{"$numberInt":"363"},"city":"NDjamna","country_id":{"$numberInt":"21"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016c0000049f"},"city_id":{"$numberInt":"364"},"city":"Newcastle","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016d000004a0"},"city_id":{"$numberInt":"365"},"city":"Nezahualcyotl","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016e000004a1"},"city_id":{"$numberInt":"366"},"city":"Nha Trang","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000016f000004a2"},"city_id":{"$numberInt":"367"},"city":"Niznekamsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000170000004a3"},"city_id":{"$numberInt":"368"},"city":"Novi Sad","country_id":{"$numberInt":"108"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000171000004a4"},"city_id":{"$numberInt":"369"},"city":"Novoterkassk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000172000004a5"},"city_id":{"$numberInt":"370"},"city":"Nukualofa","country_id":{"$numberInt":"95"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000173000004a6"},"city_id":{"$numberInt":"371"},"city":"Nuuk","country_id":{"$numberInt":"40"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000174000004a7"},"city_id":{"$numberInt":"372"},"city":"Nyeri","country_id":{"$numberInt":"52"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000175000004a8"},"city_id":{"$numberInt":"373"},"city":"Ocumare del Tuy","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000176000004a9"},"city_id":{"$numberInt":"374"},"city":"Ogbomosho","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000177000004aa"},"city_id":{"$numberInt":"375"},"city":"Okara","country_id":{"$numberInt":"72"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000178000004ab"},"city_id":{"$numberInt":"376"},"city":"Okayama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000179000004ac"},"city_id":{"$numberInt":"377"},"city":"Okinawa","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017a000004ad"},"city_id":{"$numberInt":"378"},"city":"Olomouc","country_id":{"$numberInt":"26"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017b000004ae"},"city_id":{"$numberInt":"379"},"city":"Omdurman","country_id":{"$numberInt":"89"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017c000004af"},"city_id":{"$numberInt":"380"},"city":"Omiya","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017d000004b0"},"city_id":{"$numberInt":"381"},"city":"Ondo","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017e000004b1"},"city_id":{"$numberInt":"382"},"city":"Onomichi","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000017f000004b2"},"city_id":{"$numberInt":"383"},"city":"Oshawa","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000180000004b3"},"city_id":{"$numberInt":"384"},"city":"Osmaniye","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000181000004b4"},"city_id":{"$numberInt":"385"},"city":"ostka","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000182000004b5"},"city_id":{"$numberInt":"386"},"city":"Otsu","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000183000004b6"},"city_id":{"$numberInt":"387"},"city":"Oulu","country_id":{"$numberInt":"33"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000184000004b7"},"city_id":{"$numberInt":"388"},"city":"Ourense (Orense)","country_id":{"$numberInt":"87"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000185000004b8"},"city_id":{"$numberInt":"389"},"city":"Owo","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000186000004b9"},"city_id":{"$numberInt":"390"},"city":"Oyo","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000187000004ba"},"city_id":{"$numberInt":"391"},"city":"Ozamis","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000188000004bb"},"city_id":{"$numberInt":"392"},"city":"Paarl","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000189000004bc"},"city_id":{"$numberInt":"393"},"city":"Pachuca de Soto","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018a000004bd"},"city_id":{"$numberInt":"394"},"city":"Pak Kret","country_id":{"$numberInt":"94"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018b000004be"},"city_id":{"$numberInt":"395"},"city":"Palghat (Palakkad)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018c000004bf"},"city_id":{"$numberInt":"396"},"city":"Pangkal Pinang","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018d000004c0"},"city_id":{"$numberInt":"397"},"city":"Papeete","country_id":{"$numberInt":"36"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018e000004c1"},"city_id":{"$numberInt":"398"},"city":"Parbhani","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000018f000004c2"},"city_id":{"$numberInt":"399"},"city":"Pathankot","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000190000004c3"},"city_id":{"$numberInt":"400"},"city":"Patiala","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000191000004c4"},"city_id":{"$numberInt":"401"},"city":"Patras","country_id":{"$numberInt":"39"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000192000004c5"},"city_id":{"$numberInt":"402"},"city":"Pavlodar","country_id":{"$numberInt":"51"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000193000004c6"},"city_id":{"$numberInt":"403"},"city":"Pemalang","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000194000004c7"},"city_id":{"$numberInt":"404"},"city":"Peoria","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000195000004c8"},"city_id":{"$numberInt":"405"},"city":"Pereira","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000196000004c9"},"city_id":{"$numberInt":"406"},"city":"Phnom Penh","country_id":{"$numberInt":"18"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000197000004ca"},"city_id":{"$numberInt":"407"},"city":"Pingxiang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000198000004cb"},"city_id":{"$numberInt":"408"},"city":"Pjatigorsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec28000000199000004cc"},"city_id":{"$numberInt":"409"},"city":"Plock","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019a000004cd"},"city_id":{"$numberInt":"410"},"city":"Po","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019b000004ce"},"city_id":{"$numberInt":"411"},"city":"Ponce","country_id":{"$numberInt":"77"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019c000004cf"},"city_id":{"$numberInt":"412"},"city":"Pontianak","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019d000004d0"},"city_id":{"$numberInt":"413"},"city":"Poos de Caldas","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019e000004d1"},"city_id":{"$numberInt":"414"},"city":"Portoviejo","country_id":{"$numberInt":"28"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000019f000004d2"},"city_id":{"$numberInt":"415"},"city":"Probolinggo","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a0000004d3"},"city_id":{"$numberInt":"416"},"city":"Pudukkottai","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a1000004d4"},"city_id":{"$numberInt":"417"},"city":"Pune","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a2000004d5"},"city_id":{"$numberInt":"418"},"city":"Purnea (Purnia)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a3000004d6"},"city_id":{"$numberInt":"419"},"city":"Purwakarta","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a4000004d7"},"city_id":{"$numberInt":"420"},"city":"Pyongyang","country_id":{"$numberInt":"70"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a5000004d8"},"city_id":{"$numberInt":"421"},"city":"Qalyub","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a6000004d9"},"city_id":{"$numberInt":"422"},"city":"Qinhuangdao","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a7000004da"},"city_id":{"$numberInt":"423"},"city":"Qomsheh","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a8000004db"},"city_id":{"$numberInt":"424"},"city":"Quilmes","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001a9000004dc"},"city_id":{"$numberInt":"425"},"city":"Rae Bareli","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001aa000004dd"},"city_id":{"$numberInt":"426"},"city":"Rajkot","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ab000004de"},"city_id":{"$numberInt":"427"},"city":"Rampur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ac000004df"},"city_id":{"$numberInt":"428"},"city":"Rancagua","country_id":{"$numberInt":"22"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ad000004e0"},"city_id":{"$numberInt":"429"},"city":"Ranchi","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ae000004e1"},"city_id":{"$numberInt":"430"},"city":"Richmond Hill","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001af000004e2"},"city_id":{"$numberInt":"431"},"city":"Rio Claro","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b0000004e3"},"city_id":{"$numberInt":"432"},"city":"Rizhao","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b1000004e4"},"city_id":{"$numberInt":"433"},"city":"Roanoke","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b2000004e5"},"city_id":{"$numberInt":"434"},"city":"Robamba","country_id":{"$numberInt":"28"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b3000004e6"},"city_id":{"$numberInt":"435"},"city":"Rockford","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b4000004e7"},"city_id":{"$numberInt":"436"},"city":"Ruse","country_id":{"$numberInt":"17"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b5000004e8"},"city_id":{"$numberInt":"437"},"city":"Rustenburg","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b6000004e9"},"city_id":{"$numberInt":"438"},"city":"s-Hertogenbosch","country_id":{"$numberInt":"67"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b7000004ea"},"city_id":{"$numberInt":"439"},"city":"Saarbrcken","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b8000004eb"},"city_id":{"$numberInt":"440"},"city":"Sagamihara","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001b9000004ec"},"city_id":{"$numberInt":"441"},"city":"Saint Louis","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ba000004ed"},"city_id":{"$numberInt":"442"},"city":"Saint-Denis","country_id":{"$numberInt":"79"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001bb000004ee"},"city_id":{"$numberInt":"443"},"city":"Sal","country_id":{"$numberInt":"62"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001bc000004ef"},"city_id":{"$numberInt":"444"},"city":"Salala","country_id":{"$numberInt":"71"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001bd000004f0"},"city_id":{"$numberInt":"445"},"city":"Salamanca","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001be000004f1"},"city_id":{"$numberInt":"446"},"city":"Salinas","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001bf000004f2"},"city_id":{"$numberInt":"447"},"city":"Salzburg","country_id":{"$numberInt":"9"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c0000004f3"},"city_id":{"$numberInt":"448"},"city":"Sambhal","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c1000004f4"},"city_id":{"$numberInt":"449"},"city":"San Bernardino","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c2000004f5"},"city_id":{"$numberInt":"450"},"city":"San Felipe de Puerto Plata","country_id":{"$numberInt":"27"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c3000004f6"},"city_id":{"$numberInt":"451"},"city":"San Felipe del Progreso","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c4000004f7"},"city_id":{"$numberInt":"452"},"city":"San Juan Bautista Tuxtepec","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c5000004f8"},"city_id":{"$numberInt":"453"},"city":"San Lorenzo","country_id":{"$numberInt":"73"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c6000004f9"},"city_id":{"$numberInt":"454"},"city":"San Miguel de Tucumn","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c7000004fa"},"city_id":{"$numberInt":"455"},"city":"Sanaa","country_id":{"$numberInt":"107"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c8000004fb"},"city_id":{"$numberInt":"456"},"city":"Santa Brbara dOeste","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001c9000004fc"},"city_id":{"$numberInt":"457"},"city":"Santa F","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ca000004fd"},"city_id":{"$numberInt":"458"},"city":"Santa Rosa","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001cb000004fe"},"city_id":{"$numberInt":"459"},"city":"Santiago de Compostela","country_id":{"$numberInt":"87"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001cc000004ff"},"city_id":{"$numberInt":"460"},"city":"Santiago de los Caballeros","country_id":{"$numberInt":"27"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001cd00000500"},"city_id":{"$numberInt":"461"},"city":"Santo Andr","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ce00000501"},"city_id":{"$numberInt":"462"},"city":"Sanya","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001cf00000502"},"city_id":{"$numberInt":"463"},"city":"Sasebo","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d000000503"},"city_id":{"$numberInt":"464"},"city":"Satna","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d100000504"},"city_id":{"$numberInt":"465"},"city":"Sawhaj","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d200000505"},"city_id":{"$numberInt":"466"},"city":"Serpuhov","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d300000506"},"city_id":{"$numberInt":"467"},"city":"Shahr-e Kord","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d400000507"},"city_id":{"$numberInt":"468"},"city":"Shanwei","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d500000508"},"city_id":{"$numberInt":"469"},"city":"Shaoguan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d600000509"},"city_id":{"$numberInt":"470"},"city":"Sharja","country_id":{"$numberInt":"101"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d70000050a"},"city_id":{"$numberInt":"471"},"city":"Shenzhen","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d80000050b"},"city_id":{"$numberInt":"472"},"city":"Shikarpur","country_id":{"$numberInt":"72"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001d90000050c"},"city_id":{"$numberInt":"473"},"city":"Shimoga","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001da0000050d"},"city_id":{"$numberInt":"474"},"city":"Shimonoseki","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001db0000050e"},"city_id":{"$numberInt":"475"},"city":"Shivapuri","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001dc0000050f"},"city_id":{"$numberInt":"476"},"city":"Shubra al-Khayma","country_id":{"$numberInt":"29"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001dd00000510"},"city_id":{"$numberInt":"477"},"city":"Siegen","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001de00000511"},"city_id":{"$numberInt":"478"},"city":"Siliguri (Shiliguri)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001df00000512"},"city_id":{"$numberInt":"479"},"city":"Simferopol","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e000000513"},"city_id":{"$numberInt":"480"},"city":"Sincelejo","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e100000514"},"city_id":{"$numberInt":"481"},"city":"Sirjan","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e200000515"},"city_id":{"$numberInt":"482"},"city":"Sivas","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e300000516"},"city_id":{"$numberInt":"483"},"city":"Skikda","country_id":{"$numberInt":"2"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e400000517"},"city_id":{"$numberInt":"484"},"city":"Smolensk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e500000518"},"city_id":{"$numberInt":"485"},"city":"So Bernardo do Campo","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e600000519"},"city_id":{"$numberInt":"486"},"city":"So Leopoldo","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e70000051a"},"city_id":{"$numberInt":"487"},"city":"Sogamoso","country_id":{"$numberInt":"24"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e80000051b"},"city_id":{"$numberInt":"488"},"city":"Sokoto","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001e90000051c"},"city_id":{"$numberInt":"489"},"city":"Songkhla","country_id":{"$numberInt":"94"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ea0000051d"},"city_id":{"$numberInt":"490"},"city":"Sorocaba","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001eb0000051e"},"city_id":{"$numberInt":"491"},"city":"Soshanguve","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ec0000051f"},"city_id":{"$numberInt":"492"},"city":"Sousse","country_id":{"$numberInt":"96"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ed00000520"},"city_id":{"$numberInt":"493"},"city":"South Hill","country_id":{"$numberInt":"5"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ee00000521"},"city_id":{"$numberInt":"494"},"city":"Southampton","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ef00000522"},"city_id":{"$numberInt":"495"},"city":"Southend-on-Sea","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f000000523"},"city_id":{"$numberInt":"496"},"city":"Southport","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f100000524"},"city_id":{"$numberInt":"497"},"city":"Springs","country_id":{"$numberInt":"85"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f200000525"},"city_id":{"$numberInt":"498"},"city":"Stara Zagora","country_id":{"$numberInt":"17"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f300000526"},"city_id":{"$numberInt":"499"},"city":"Sterling Heights","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f400000527"},"city_id":{"$numberInt":"500"},"city":"Stockport","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f500000528"},"city_id":{"$numberInt":"501"},"city":"Sucre","country_id":{"$numberInt":"14"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f600000529"},"city_id":{"$numberInt":"502"},"city":"Suihua","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f70000052a"},"city_id":{"$numberInt":"503"},"city":"Sullana","country_id":{"$numberInt":"74"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f80000052b"},"city_id":{"$numberInt":"504"},"city":"Sultanbeyli","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001f90000052c"},"city_id":{"$numberInt":"505"},"city":"Sumqayit","country_id":{"$numberInt":"10"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001fa0000052d"},"city_id":{"$numberInt":"506"},"city":"Sumy","country_id":{"$numberInt":"100"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001fb0000052e"},"city_id":{"$numberInt":"507"},"city":"Sungai Petani","country_id":{"$numberInt":"59"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001fc0000052f"},"city_id":{"$numberInt":"508"},"city":"Sunnyvale","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001fd00000530"},"city_id":{"$numberInt":"509"},"city":"Surakarta","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001fe00000531"},"city_id":{"$numberInt":"510"},"city":"Syktyvkar","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000001ff00000532"},"city_id":{"$numberInt":"511"},"city":"Syrakusa","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020000000533"},"city_id":{"$numberInt":"512"},"city":"Szkesfehrvr","country_id":{"$numberInt":"43"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020100000534"},"city_id":{"$numberInt":"513"},"city":"Tabora","country_id":{"$numberInt":"93"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020200000535"},"city_id":{"$numberInt":"514"},"city":"Tabriz","country_id":{"$numberInt":"46"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020300000536"},"city_id":{"$numberInt":"515"},"city":"Tabuk","country_id":{"$numberInt":"82"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020400000537"},"city_id":{"$numberInt":"516"},"city":"Tafuna","country_id":{"$numberInt":"3"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020500000538"},"city_id":{"$numberInt":"517"},"city":"Taguig","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020600000539"},"city_id":{"$numberInt":"518"},"city":"Taizz","country_id":{"$numberInt":"107"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002070000053a"},"city_id":{"$numberInt":"519"},"city":"Talavera","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002080000053b"},"city_id":{"$numberInt":"520"},"city":"Tallahassee","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002090000053c"},"city_id":{"$numberInt":"521"},"city":"Tama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020a0000053d"},"city_id":{"$numberInt":"522"},"city":"Tambaram","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020b0000053e"},"city_id":{"$numberInt":"523"},"city":"Tanauan","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020c0000053f"},"city_id":{"$numberInt":"524"},"city":"Tandil","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020d00000540"},"city_id":{"$numberInt":"525"},"city":"Tangail","country_id":{"$numberInt":"12"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020e00000541"},"city_id":{"$numberInt":"526"},"city":"Tanshui","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000020f00000542"},"city_id":{"$numberInt":"527"},"city":"Tanza","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021000000543"},"city_id":{"$numberInt":"528"},"city":"Tarlac","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021100000544"},"city_id":{"$numberInt":"529"},"city":"Tarsus","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021200000545"},"city_id":{"$numberInt":"530"},"city":"Tartu","country_id":{"$numberInt":"30"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021300000546"},"city_id":{"$numberInt":"531"},"city":"Teboksary","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021400000547"},"city_id":{"$numberInt":"532"},"city":"Tegal","country_id":{"$numberInt":"45"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021500000548"},"city_id":{"$numberInt":"533"},"city":"Tel Aviv-Jaffa","country_id":{"$numberInt":"48"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021600000549"},"city_id":{"$numberInt":"534"},"city":"Tete","country_id":{"$numberInt":"63"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002170000054a"},"city_id":{"$numberInt":"535"},"city":"Tianjin","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002180000054b"},"city_id":{"$numberInt":"536"},"city":"Tiefa","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002190000054c"},"city_id":{"$numberInt":"537"},"city":"Tieli","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021a0000054d"},"city_id":{"$numberInt":"538"},"city":"Tokat","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021b0000054e"},"city_id":{"$numberInt":"539"},"city":"Tonghae","country_id":{"$numberInt":"86"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021c0000054f"},"city_id":{"$numberInt":"540"},"city":"Tongliao","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021d00000550"},"city_id":{"$numberInt":"541"},"city":"Torren","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021e00000551"},"city_id":{"$numberInt":"542"},"city":"Touliu","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000021f00000552"},"city_id":{"$numberInt":"543"},"city":"Toulon","country_id":{"$numberInt":"34"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022000000553"},"city_id":{"$numberInt":"544"},"city":"Toulouse","country_id":{"$numberInt":"34"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022100000554"},"city_id":{"$numberInt":"545"},"city":"Trshavn","country_id":{"$numberInt":"32"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022200000555"},"city_id":{"$numberInt":"546"},"city":"Tsaotun","country_id":{"$numberInt":"92"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022300000556"},"city_id":{"$numberInt":"547"},"city":"Tsuyama","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022400000557"},"city_id":{"$numberInt":"548"},"city":"Tuguegarao","country_id":{"$numberInt":"75"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022500000558"},"city_id":{"$numberInt":"549"},"city":"Tychy","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022600000559"},"city_id":{"$numberInt":"550"},"city":"Udaipur","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002270000055a"},"city_id":{"$numberInt":"551"},"city":"Udine","country_id":{"$numberInt":"49"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002280000055b"},"city_id":{"$numberInt":"552"},"city":"Ueda","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002290000055c"},"city_id":{"$numberInt":"553"},"city":"Uijongbu","country_id":{"$numberInt":"86"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022a0000055d"},"city_id":{"$numberInt":"554"},"city":"Uluberia","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022b0000055e"},"city_id":{"$numberInt":"555"},"city":"Urawa","country_id":{"$numberInt":"50"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022c0000055f"},"city_id":{"$numberInt":"556"},"city":"Uruapan","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022d00000560"},"city_id":{"$numberInt":"557"},"city":"Usak","country_id":{"$numberInt":"97"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022e00000561"},"city_id":{"$numberInt":"558"},"city":"Usolje-Sibirskoje","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000022f00000562"},"city_id":{"$numberInt":"559"},"city":"Uttarpara-Kotrung","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023000000563"},"city_id":{"$numberInt":"560"},"city":"Vaduz","country_id":{"$numberInt":"55"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023100000564"},"city_id":{"$numberInt":"561"},"city":"Valencia","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023200000565"},"city_id":{"$numberInt":"562"},"city":"Valle de la Pascua","country_id":{"$numberInt":"104"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023300000566"},"city_id":{"$numberInt":"563"},"city":"Valle de Santiago","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023400000567"},"city_id":{"$numberInt":"564"},"city":"Valparai","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023500000568"},"city_id":{"$numberInt":"565"},"city":"Vancouver","country_id":{"$numberInt":"20"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023600000569"},"city_id":{"$numberInt":"566"},"city":"Varanasi (Benares)","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002370000056a"},"city_id":{"$numberInt":"567"},"city":"Vicente Lpez","country_id":{"$numberInt":"6"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002380000056b"},"city_id":{"$numberInt":"568"},"city":"Vijayawada","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002390000056c"},"city_id":{"$numberInt":"569"},"city":"Vila Velha","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023a0000056d"},"city_id":{"$numberInt":"570"},"city":"Vilnius","country_id":{"$numberInt":"56"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023b0000056e"},"city_id":{"$numberInt":"571"},"city":"Vinh","country_id":{"$numberInt":"105"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023c0000056f"},"city_id":{"$numberInt":"572"},"city":"Vitria de Santo Anto","country_id":{"$numberInt":"15"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023d00000570"},"city_id":{"$numberInt":"573"},"city":"Warren","country_id":{"$numberInt":"103"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023e00000571"},"city_id":{"$numberInt":"574"},"city":"Weifang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000023f00000572"},"city_id":{"$numberInt":"575"},"city":"Witten","country_id":{"$numberInt":"38"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024000000573"},"city_id":{"$numberInt":"576"},"city":"Woodridge","country_id":{"$numberInt":"8"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024100000574"},"city_id":{"$numberInt":"577"},"city":"Wroclaw","country_id":{"$numberInt":"76"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024200000575"},"city_id":{"$numberInt":"578"},"city":"Xiangfan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024300000576"},"city_id":{"$numberInt":"579"},"city":"Xiangtan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024400000577"},"city_id":{"$numberInt":"580"},"city":"Xintai","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024500000578"},"city_id":{"$numberInt":"581"},"city":"Xinxiang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024600000579"},"city_id":{"$numberInt":"582"},"city":"Yamuna Nagar","country_id":{"$numberInt":"44"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002470000057a"},"city_id":{"$numberInt":"583"},"city":"Yangor","country_id":{"$numberInt":"65"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002480000057b"},"city_id":{"$numberInt":"584"},"city":"Yantai","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002490000057c"},"city_id":{"$numberInt":"585"},"city":"Yaound","country_id":{"$numberInt":"19"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024a0000057d"},"city_id":{"$numberInt":"586"},"city":"Yerevan","country_id":{"$numberInt":"7"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024b0000057e"},"city_id":{"$numberInt":"587"},"city":"Yinchuan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024c0000057f"},"city_id":{"$numberInt":"588"},"city":"Yingkou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024d00000580"},"city_id":{"$numberInt":"589"},"city":"York","country_id":{"$numberInt":"102"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024e00000581"},"city_id":{"$numberInt":"590"},"city":"Yuncheng","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000024f00000582"},"city_id":{"$numberInt":"591"},"city":"Yuzhou","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025000000583"},"city_id":{"$numberInt":"592"},"city":"Zalantun","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025100000584"},"city_id":{"$numberInt":"593"},"city":"Zanzibar","country_id":{"$numberInt":"93"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025200000585"},"city_id":{"$numberInt":"594"},"city":"Zaoyang","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025300000586"},"city_id":{"$numberInt":"595"},"city":"Zapopan","country_id":{"$numberInt":"60"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025400000587"},"city_id":{"$numberInt":"596"},"city":"Zaria","country_id":{"$numberInt":"69"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025500000588"},"city_id":{"$numberInt":"597"},"city":"Zeleznogorsk","country_id":{"$numberInt":"80"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec2800000025600000589"},"city_id":{"$numberInt":"598"},"city":"Zhezqazghan","country_id":{"$numberInt":"51"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002570000058a"},"city_id":{"$numberInt":"599"},"city":"Zhoushan","country_id":{"$numberInt":"23"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}
+{"_id":{"$oid":"612ec280000002580000058b"},"city_id":{"$numberInt":"600"},"city":"Ziguinchor","country_id":{"$numberInt":"83"},"last_update":{"$date":{"$numberLong":"1139978725000"}}}

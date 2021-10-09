@@ -1,0 +1,6 @@
+{"_id":{"$oid":"612ec2800000000100003b43"},"language_id":{"$numberInt":"1"},"name":"English","last_update":{"$date":{"$numberLong":"1139979739000"}}}
+{"_id":{"$oid":"612ec2800000000200003b44"},"language_id":{"$numberInt":"2"},"name":"Italian","last_update":{"$date":{"$numberLong":"1139979739000"}}}
+{"_id":{"$oid":"612ec2800000000300003b45"},"language_id":{"$numberInt":"3"},"name":"Japanese","last_update":{"$date":{"$numberLong":"1139979739000"}}}
+{"_id":{"$oid":"612ec2800000000400003b46"},"language_id":{"$numberInt":"4"},"name":"Mandarin","last_update":{"$date":{"$numberLong":"1139979739000"}}}
+{"_id":{"$oid":"612ec2800000000500003b47"},"language_id":{"$numberInt":"5"},"name":"French","last_update":{"$date":{"$numberLong":"1139979739000"}}}
+{"_id":{"$oid":"612ec2800000000600003b48"},"language_id":{"$numberInt":"6"},"name":"German","last_update":{"$date":{"$numberLong":"1139979739000"}}}
