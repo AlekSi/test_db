@@ -14,55 +14,120 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql" // register database/sql driver
+	_ "github.com/jackc/pgx/v4/stdlib" // register database/sql driver
+	_ "github.com/lib/pq"              // register database/sql driver
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"gopkg.in/reform.v1"
 	mysqldialect "gopkg.in/reform.v1/dialects/mysql"
+	postgresqldialect "gopkg.in/reform.v1/dialects/postgresql"
 
 	"github.com/AlekSi/test_db/convert/mongodb"
 	"github.com/AlekSi/test_db/convert/mysql/sakila"
+	"github.com/AlekSi/test_db/convert/postgresql/pagila"
 )
 
 const (
-	mysqlURI = "root@/sakila?parseTime=true&clientFoundRows=true&time_zone='UTC'"
-	mongoURI = "mongodb://localhost/monila"
+	mysqlURI    = "root@/sakila?parseTime=true&clientFoundRows=true&time_zone='UTC'"
+	postgresURI = "postgres://postgres@127.0.0.1:5432/pagila?sslmode=disable"
+	pgxURI      = "postgres://postgres@127.0.0.1:5432/pagila"
+	mongoURI    = "mongodb://localhost/monila"
 )
 
 func main() {
+	verboseF := flag.Bool("verbose", false, "be verbose")
+	fromF := flag.String("from", "mysql", "import from: mysql, postgres (lib/pq), pgx")
 	flag.Parse()
 
-	mysqlSQLDB, err := sql.Open("mysql", mysqlURI)
-	if err != nil {
-		log.Fatal(err)
+	var reformLogger reform.Logger
+	if *verboseF {
+		reformLogger = reform.NewPrintfLogger(log.New(os.Stderr, "reform: ", 0).Printf)
 	}
-	defer mysqlSQLDB.Close()
 
-	mysqlDB := reform.NewDB(mysqlSQLDB, mysqldialect.Dialect, reform.NewPrintfLogger(log.Printf))
+	var reformDB *reform.DB
 
-	views := []reform.View{
-		// mysql.ActorInfoView, // view
-		sakila.ActorTable,
-		sakila.AddressTable,
-		sakila.CategoryTable,
-		sakila.CityTable,
-		sakila.CountryTable,
-		// mysql.CustomerListView, // view
-		sakila.CustomerTable,
-		sakila.FilmActorView,
-		sakila.FilmCategoryView,
-		// mysql.FilmListView, // view
-		sakila.FilmTable,
-		sakila.FilmTextTable,
-		sakila.InventoryTable,
-		sakila.LanguageTable,
-		// mysql.NicerButSlowerFilmListView, // view
-		sakila.PaymentTable,
-		sakila.RentalTable,
-		// mysql.SalesByFilmCategoryView, // view
-		// mysql.SalesByStoreView,        // view
-		// mysql.StaffListView,           // view
-		sakila.StaffTable,
-		sakila.StoreTable,
+	switch *fromF {
+	case "mysql":
+		db, err := sql.Open("mysql", mysqlURI)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer db.Close()
+		reformDB = reform.NewDB(db, mysqldialect.Dialect, reformLogger)
+
+	case "postgres":
+		db, err := sql.Open("postgres", postgresURI)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer db.Close()
+		reformDB = reform.NewDB(db, postgresqldialect.Dialect, reformLogger)
+
+	case "pgx":
+		db, err := sql.Open("pgx", pgxURI)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer db.Close()
+		reformDB = reform.NewDB(db, postgresqldialect.Dialect, reformLogger)
+
+	default:
+		log.Fatalf("Unhandled -from value: %q.", *fromF)
+	}
+
+	var views []reform.View
+	if *fromF == "mysql" {
+		views = []reform.View{
+			// sakila.ActorInfoView, // view
+			sakila.ActorTable,
+			sakila.AddressTable,
+			sakila.CategoryTable,
+			sakila.CityTable,
+			sakila.CountryTable,
+			// sakila.CustomerListView, // view
+			sakila.CustomerTable,
+			sakila.FilmActorView,
+			sakila.FilmCategoryView,
+			// sakila.FilmListView, // view
+			sakila.FilmTable,
+			sakila.FilmTextTable,
+			sakila.InventoryTable,
+			sakila.LanguageTable,
+			// sakila.NicerButSlowerFilmListView, // view
+			sakila.PaymentTable,
+			sakila.RentalTable,
+			// sakila.SalesByFilmCategoryView, // view
+			// sakila.SalesByStoreView,        // view
+			// sakila.StaffListView,           // view
+			sakila.StaffTable,
+			sakila.StoreTable,
+		}
+	} else {
+		views = []reform.View{
+			// pagila.ActorInfoView, // view
+			pagila.ActorTable,
+			pagila.AddressTable,
+			pagila.CategoryTable,
+			pagila.CityTable,
+			pagila.CountryTable,
+			// pagila.CustomerListView, // view
+			pagila.CustomerTable,
+			pagila.FilmActorView,
+			pagila.FilmCategoryView,
+			// pagila.FilmListView, // view
+			pagila.FilmTable,
+			// pagila.FilmTextTable, // missing
+			pagila.InventoryTable,
+			pagila.LanguageTable,
+			// pagila.NicerButSlowerFilmListView, // view
+			// pagila.PaymentTable,               // missing
+			pagila.RentalTable,
+			// pagila.SalesByFilmCategoryView, // view
+			// pagila.SalesByStoreView,        // view
+			// pagila.StaffListView,           // view
+			pagila.StaffTable,
+			pagila.StoreTable,
+		}
 	}
 
 	script := []string{
@@ -74,23 +139,28 @@ func main() {
 	}
 
 	for _, view := range views {
-		importView(mysqlDB, view)
-		exportView(view)
+		viewName := view.Name()
+		log.Printf("%s ...", viewName)
+
+		importView(reformDB, view, *verboseF)
+		exportView(viewName, *verboseF)
 
 		cmd := fmt.Sprintf(
 			"mongoimport --uri=%s --collection=%s --drop --maintainInsertionOrder $DIR/%s",
-			mongoURI, view.Name(), view.Name()+".json",
+			mongoURI, viewName, viewName+".json",
 		)
 		script = append(script, cmd)
 	}
 
 	fn := filepath.Join("..", "mongodb", "monila", "import.sh")
+	log.Printf("Writing %s ...", fn)
 	if err := os.WriteFile(fn, []byte(strings.Join(script, "\n")+"\n"), 0o755); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func importView(db *reform.DB, view reform.View) {
+// importView imports SQL view into MongoDB.
+func importView(db *reform.DB, view reform.View, verbose bool) {
 	rows, err := db.SelectRows(view, "")
 	if err != nil {
 		log.Fatal(err)
@@ -100,7 +170,12 @@ func importView(db *reform.DB, view reform.View) {
 	r, w := io.Pipe()
 	done := make(chan error)
 	go func() {
-		done <- mongodb.Import(mongoURI, view.Name(), r)
+		verbosity := -1
+		if verbose {
+			verbosity = 1
+		}
+
+		done <- mongodb.Import(mongoURI, view.Name(), r, verbosity)
 	}()
 
 	for {
@@ -135,7 +210,10 @@ func importView(db *reform.DB, view reform.View) {
 			log.Fatal(err)
 		}
 
-		log.Printf("%s", b)
+		if verbose {
+			log.Printf("%s", b)
+		}
+
 		w.Write(b)
 	}
 	if err != reform.ErrNoRows {
@@ -152,8 +230,9 @@ func importView(db *reform.DB, view reform.View) {
 	}
 }
 
-func exportView(view reform.View) {
-	f, err := os.Create(filepath.Join("..", "mongodb", "monila", view.Name()+".json"))
+// exportView exports MongoDB collection into JSON file.
+func exportView(collection string, verbose bool) {
+	f, err := os.Create(filepath.Join("..", "mongodb", "monila", collection+".json"))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -163,7 +242,12 @@ func exportView(view reform.View) {
 		}
 	}()
 
-	if err := mongodb.Export(mongoURI, view.Name(), f); err != nil {
+	verbosity := -1
+	if verbose {
+		verbosity = 1
+	}
+
+	if err := mongodb.Export(mongoURI, collection, f, verbosity); err != nil {
 		log.Fatal(err)
 	}
 }
