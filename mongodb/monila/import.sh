@@ -13,10 +13,8 @@ mongoimport --uri=mongodb://localhost/monila --collection=customer --drop --main
 mongoimport --uri=mongodb://localhost/monila --collection=film_actor --drop --maintainInsertionOrder $DIR/film_actor.json
 mongoimport --uri=mongodb://localhost/monila --collection=film_category --drop --maintainInsertionOrder $DIR/film_category.json
 mongoimport --uri=mongodb://localhost/monila --collection=film --drop --maintainInsertionOrder $DIR/film.json
-mongoimport --uri=mongodb://localhost/monila --collection=film_text --drop --maintainInsertionOrder $DIR/film_text.json
 mongoimport --uri=mongodb://localhost/monila --collection=inventory --drop --maintainInsertionOrder $DIR/inventory.json
 mongoimport --uri=mongodb://localhost/monila --collection=language --drop --maintainInsertionOrder $DIR/language.json
-mongoimport --uri=mongodb://localhost/monila --collection=payment --drop --maintainInsertionOrder $DIR/payment.json
 mongoimport --uri=mongodb://localhost/monila --collection=rental --drop --maintainInsertionOrder $DIR/rental.json
 mongoimport --uri=mongodb://localhost/monila --collection=staff --drop --maintainInsertionOrder $DIR/staff.json
 mongoimport --uri=mongodb://localhost/monila --collection=store --drop --maintainInsertionOrder $DIR/store.json
