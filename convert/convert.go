@@ -36,7 +36,19 @@ const (
 
 func main() {
 	verboseF := flag.Bool("verbose", false, "be verbose")
-	fromF := flag.String("from", "mysql", "import from: mysql, postgres (lib/pq), pgx")
+	fromF := flag.String("from", "postgres", "import from: postgres (lib/pq), pgx, mysql")
+	flag.Usage = func() {
+		u := "Convert tool reads Sakila/Pagila dataset from MySQL/PostgreSQL,\n" +
+			"adds ObjectID _id fields to rows, then converts them to ExtJSON and\n" +
+			"imports them into MongoDB via mongoimport.\n" +
+			"It then exports the resulting Monila database into ExtJSON files.\n\n" +
+			"Please note that MySQL's Sakila and PostgreSQL's Pagila datasets\n" +
+			"have small differences, most notably in dates.\n"
+		fmt.Fprintln(flag.CommandLine.Output(), u)
+
+		fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n", os.Args[0])
+		flag.PrintDefaults()
+	}
 	flag.Parse()
 
 	var reformLogger reform.Logger
