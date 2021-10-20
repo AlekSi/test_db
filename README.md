@@ -1,6 +1,6 @@
-# test_db [![Docker Automated build](https://img.shields.io/docker/automated/aleksi/test_db.svg)](https://hub.docker.com/r/aleksi/test_db/)
+# test_db
 
-test_db is a repository and a Docker image with various example databases:
+test_db is a repository and a [Docker image](https://hub.docker.com/r/aleksi/test_db/) with various example databases:
 
 * MySQL
   * [World and World X (for MySQL X plugin)](https://dev.mysql.com/doc/world-setup/en/)
@@ -23,7 +23,7 @@ images documentation for `docker-entrypoint-initdb.d` initialization scripts.
 
 ## Changelog
 
-### v1.2.0 - not released yet
+### v1.2.0 - 2021-10-20
 
 * Updated MySQL databases:
   * World and World X [from September 2016 to December 2019](https://dev.mysql.com/doc/world-setup/en/world-setup-history.html);
