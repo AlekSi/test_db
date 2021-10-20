@@ -10,10 +10,15 @@ test_db is a repository and a Docker image with various example databases:
 * PostgreSQL
   * [World](http://pgfoundry.org/projects/dbsamples/)
   * [Pagila](https://github.com/devrimgunduz/pagila)
+* MongoDB
+  * Monila (converted from Pagila)
 
 They can be used for example, tests, etc.
 
-Docker image is build on top of busybox to make it explorable. It also exposes `/test_db` as a volume.
+Docker image is build on top of busybox to make it explorable.
+It also exposes `/test_db` as a volume that can be mounted into MySQL/PostgreSQL/MongoDB containers
+for initializing databases on start-up. See [docker-compose.yml](docker-compose.yml) for examples and
+images documentation for `docker-entrypoint-initdb.d` initialization scripts.
 
 
 ## Changelog
@@ -30,7 +35,10 @@ Docker image is build on top of busybox to make it explorable. It also exposes `
   * Pagila [from 0.10.1 to 2.1.0](https://github.com/devrimgunduz/pagila#version-history):
     * files were renamed to `01-pagila-schema.sql` and `02-pagila-data.sql` to make them
       compatible with the official `postgres` Docker image's initialization scripts;
-    * `pagila-insert-data.sql` was removed as it contained the same data as (`02-`)`pagila-data.sql`.
+    * `pagila-insert-data.sql` was removed as it contained the same data as (`02-`)`pagila-data.sql`;
+    * please note that Sakila and Pagila databases have small differences, most notably in dates;
+* Added MongoDB Monila database:
+  * Converted from Pagila by a script in this repository.
 
 ### v1.1.0 - 2019-06-13
 

@@ -1,0 +1,16 @@
+{"_id":{"$oid":"612ec2800000000100000324"},"category_id":{"$numberInt":"1"},"name":"Action","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000200000325"},"category_id":{"$numberInt":"2"},"name":"Animation","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000300000326"},"category_id":{"$numberInt":"3"},"name":"Children","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000400000327"},"category_id":{"$numberInt":"4"},"name":"Classics","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000500000328"},"category_id":{"$numberInt":"5"},"name":"Comedy","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000600000329"},"category_id":{"$numberInt":"6"},"name":"Documentary","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec280000000070000032a"},"category_id":{"$numberInt":"7"},"name":"Drama","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec280000000080000032b"},"category_id":{"$numberInt":"8"},"name":"Family","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec280000000090000032c"},"category_id":{"$numberInt":"9"},"name":"Foreign","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000a0000032d"},"category_id":{"$numberInt":"10"},"name":"Games","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000b0000032e"},"category_id":{"$numberInt":"11"},"name":"Horror","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000c0000032f"},"category_id":{"$numberInt":"12"},"name":"Music","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000d00000330"},"category_id":{"$numberInt":"13"},"name":"New","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000e00000331"},"category_id":{"$numberInt":"14"},"name":"Sci-Fi","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000000f00000332"},"category_id":{"$numberInt":"15"},"name":"Sports","last_update":{"$date":{"$numberLong":"1581759987000"}}}
+{"_id":{"$oid":"612ec2800000001000000333"},"category_id":{"$numberInt":"16"},"name":"Travel","last_update":{"$date":{"$numberLong":"1581759987000"}}}
