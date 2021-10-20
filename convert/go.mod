@@ -3,10 +3,10 @@ module github.com/AlekSi/test_db/convert
 go 1.17
 
 require (
-	github.com/go-sql-driver/mysql v1.5.0
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/jackc/pgx/v4 v4.13.0
-	github.com/lib/pq v1.10.2
-	go.mongodb.org/mongo-driver v1.7.1
+	github.com/lib/pq v1.10.3
+	go.mongodb.org/mongo-driver v1.7.3
 	gopkg.in/reform.v1 v1.5.1
 )
 
