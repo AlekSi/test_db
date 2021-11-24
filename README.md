@@ -8,7 +8,7 @@ test_db is a repository and a [Docker image](https://hub.docker.com/r/aleksi/tes
   * [datacharmer/test_db a.k.a. Employees](https://github.com/datacharmer/test_db)
   * [Menagerie](https://dev.mysql.com/doc/index-other.html)
 * PostgreSQL
-  * [World](http://pgfoundry.org/projects/dbsamples/)
+  * [World](converted from MySQL's World)
   * [Pagila](https://github.com/devrimgunduz/pagila)
 * MongoDB
   * Monila (converted from Pagila)
@@ -22,6 +22,11 @@ images documentation for `docker-entrypoint-initdb.d` initialization scripts.
 
 
 ## Changelog
+
+### unreleased
+
+* PostgreSQL World updated.
+* MongoDB World added.
 
 ### v1.2.0 - 2021-10-20
 

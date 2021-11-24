@@ -7,7 +7,7 @@ package world
 type Country struct {
 	Code           string  `reform:"Code,pk"`
 	Name           string  `reform:"Name"`
-	Continent      []byte  `reform:"Continent"` // FIXME unhandled database type "enum"
+	Continent      string  `reform:"Continent"`
 	Region         string  `reform:"Region"`
 	SurfaceArea    string  `reform:"SurfaceArea"`
 	IndepYear      *int16  `reform:"IndepYear"`

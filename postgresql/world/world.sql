@@ -1,14 +1,3 @@
---
--- PostgreSQL port of the MySQL "World" database.
---
--- The sample data used in the world database is Copyright Statistics
--- Finland, http://www.stat.fi/worldinfigures.
---
-
-BEGIN;
-
-SET client_encoding = 'LATIN1';
-
 CREATE TABLE city (
     id integer NOT NULL,
     name text NOT NULL,
@@ -5380,9 +5369,6 @@ ALTER TABLE ONLY country
 ALTER TABLE ONLY countrylanguage
     ADD CONSTRAINT countrylanguage_countrycode_fkey FOREIGN KEY (countrycode) REFERENCES country(code);
 
-COMMIT;
-
 ANALYZE city;
 ANALYZE country;
 ANALYZE countrylanguage;
-
