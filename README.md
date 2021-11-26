@@ -23,6 +23,10 @@ images documentation for `docker-entrypoint-initdb.d` initialization scripts.
 
 ## Changelog
 
+### v1.2.1 - 2021-11-26
+
+* The same as 1.2.0 but with `linux/arm64/v8` variant.
+
 ### v1.2.0 - 2021-10-20
 
 * Updated MySQL databases:
