@@ -41,6 +41,7 @@ func Export(uri, collection string, docs io.Writer, verbosity int) error {
 		"--uri=" + uri,
 		"--collection=" + collection,
 		"--jsonFormat=canonical",
+		"--sort={_id:1}",
 	}
 
 	if verbosity < 0 {

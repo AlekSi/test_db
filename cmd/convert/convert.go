@@ -2,7 +2,6 @@ package main
 
 import (
 	"database/sql"
-	"encoding/binary"
 	"flag"
 	"fmt"
 	"io"
@@ -10,8 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"sync/atomic"
-	"time"
 
 	_ "github.com/go-sql-driver/mysql" // register database/sql driver
 	_ "github.com/jackc/pgx/v4/stdlib" // register database/sql driver
@@ -22,9 +19,9 @@ import (
 	mysqldialect "gopkg.in/reform.v1/dialects/mysql"
 	postgresqldialect "gopkg.in/reform.v1/dialects/postgresql"
 
-	"github.com/AlekSi/test_db/cmd/convert/mongodb"
-	"github.com/AlekSi/test_db/cmd/convert/mysql/sakila"
-	"github.com/AlekSi/test_db/cmd/convert/postgresql/pagila"
+	"github.com/AlekSi/test_db/cmd/internal/mongodb"
+	"github.com/AlekSi/test_db/cmd/internal/mysql/sakila"
+	"github.com/AlekSi/test_db/cmd/internal/postgresql/pagila"
 )
 
 const (
@@ -164,7 +161,7 @@ func main() {
 		script = append(script, cmd)
 	}
 
-	fn := filepath.Join("..", "mongodb", "monila", "import.sh")
+	fn := filepath.Join("..", "..", "mongodb", "monila", "import.sh")
 	log.Printf("Writing %s ...", fn)
 	if err := os.WriteFile(fn, []byte(strings.Join(script, "\n")+"\n"), 0o755); err != nil {
 		log.Fatal(err)
@@ -212,7 +209,7 @@ func importView(db *reform.DB, view reform.View, verbose bool) {
 
 		cols := view.Columns()
 		d := make(bson.D, 0, len(cols)+1)
-		d = append(d, primitive.E{Key: "_id", Value: newObjectID(id)})
+		d = append(d, primitive.E{Key: "_id", Value: mongodb.NewObjectID(id)})
 		for i, val := range str.Values() {
 			d = append(d, primitive.E{Key: cols[i], Value: val})
 		}
@@ -244,7 +241,7 @@ func importView(db *reform.DB, view reform.View, verbose bool) {
 
 // exportView exports MongoDB collection into JSON file.
 func exportView(collection string, verbose bool) {
-	f, err := os.Create(filepath.Join("..", "mongodb", "monila", collection+".json"))
+	f, err := os.Create(filepath.Join("..", "..", "mongodb", "monila", collection+".json"))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -262,27 +259,4 @@ func exportView(collection string, verbose bool) {
 	if err := mongodb.Export(mongoURI, collection, f, verbosity); err != nil {
 		log.Fatal(err)
 	}
-}
-
-var (
-	ts              = uint32(time.Date(2021, 9, 1, 0, 0, 0, 0, time.UTC).Unix())
-	objectIDCounter uint32
-)
-
-// newObjectID generates stable BSON ObjectID to make conversion results stable.
-func newObjectID(id uint32) primitive.ObjectID {
-	processUnique := make([]byte, 5)
-	binary.BigEndian.PutUint32(processUnique, id)
-
-	var b [12]byte
-
-	binary.BigEndian.PutUint32(b[0:4], ts)
-	copy(b[4:9], processUnique)
-
-	v := atomic.AddUint32(&objectIDCounter, 1)
-	b[9] = byte(v >> 16)
-	b[10] = byte(v >> 8)
-	b[11] = byte(v)
-
-	return b
 }
