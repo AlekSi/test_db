@@ -209,7 +209,7 @@ func importView(db *reform.DB, view reform.View, verbose bool) {
 
 		cols := view.Columns()
 		d := make(bson.D, 0, len(cols)+1)
-		d = append(d, primitive.E{Key: "_id", Value: mongodb.NewObjectID(id)})
+		d = append(d, primitive.E{Key: "_id", Value: mongodb.NewObjectID(id, 0)})
 		for i, val := range str.Values() {
 			d = append(d, primitive.E{Key: cols[i], Value: val})
 		}

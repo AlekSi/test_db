@@ -14,7 +14,7 @@ var (
 )
 
 // NewObjectID generates stable BSON ObjectID to make conversion results stable.
-func NewObjectID(id uint32) primitive.ObjectID {
+func NewObjectID(id, c uint32) primitive.ObjectID {
 	processUnique := make([]byte, 5)
 	binary.BigEndian.PutUint32(processUnique, id)
 
@@ -23,10 +23,12 @@ func NewObjectID(id uint32) primitive.ObjectID {
 	binary.BigEndian.PutUint32(b[0:4], ts)
 	copy(b[4:9], processUnique)
 
-	v := atomic.AddUint32(&objectIDCounter, 1)
-	b[9] = byte(v >> 16)
-	b[10] = byte(v >> 8)
-	b[11] = byte(v)
+	if c == 0 {
+		c = atomic.AddUint32(&objectIDCounter, 1)
+	}
+	b[9] = byte(c >> 16)
+	b[10] = byte(c >> 8)
+	b[11] = byte(c)
 
 	return b
 }

@@ -52,7 +52,7 @@ func main() {
 
 		0x0201: "foo",
 		0x0202: "",
-		0x0203: "\x00",
+		// 0x0203: "\x00",
 
 		0x0301: map[string]any{"document": 42},
 		0x0302: map[string]any{},
@@ -106,7 +106,7 @@ func main() {
 	slices.Sort(keys)
 
 	for _, key := range keys {
-		doc := bson.D{{"_id", mongodb.NewObjectID(key)}, {"value", data[key]}}
+		doc := bson.D{{"_id", mongodb.NewObjectID(key, key)}, {"value", data[key]}}
 		if _, err = collection.InsertOne(ctx, doc); err != nil {
 			log.Fatal(err)
 		}
