@@ -89,7 +89,7 @@ func main() {
 		0x1004: int32(math.MinInt32),
 
 		0x1101: primitive.Timestamp{T: 42, I: 13},
-		0x1102: primitive.Timestamp{},
+		0x1102: primitive.Timestamp{I: 1},
 
 		0x1201: int64(42),
 		0x1202: int64(0),
