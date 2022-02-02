@@ -22,9 +22,9 @@ import (
 	mysqldialect "gopkg.in/reform.v1/dialects/mysql"
 	postgresqldialect "gopkg.in/reform.v1/dialects/postgresql"
 
-	"github.com/AlekSi/test_db/convert/mongodb"
-	"github.com/AlekSi/test_db/convert/mysql/sakila"
-	"github.com/AlekSi/test_db/convert/postgresql/pagila"
+	"github.com/AlekSi/test_db/cmd/convert/mongodb"
+	"github.com/AlekSi/test_db/cmd/convert/mysql/sakila"
+	"github.com/AlekSi/test_db/cmd/convert/postgresql/pagila"
 )
 
 const (
