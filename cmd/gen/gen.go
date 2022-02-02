@@ -119,7 +119,7 @@ func main() {
 		}
 	}()
 
-	if err := mongodb.Export(mongoURI, "values", f, 2); err != nil {
+	if err := mongodb.Export(mongoURI, "values", f, 0); err != nil {
 		log.Fatal(err)
 	}
 }

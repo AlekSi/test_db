@@ -11,7 +11,8 @@ import (
 // Import reads documents from the provided reader and writes them into MongoDB with `mongoimport`.
 func Import(uri, collection string, docs io.Reader, verbosity int) error {
 	args := []string{
-		"docker", "compose", "exec", "mongodb", "mongoimport",
+		"docker", "compose", "exec", "-T",
+		"mongodb", "mongoimport",
 		"--uri=" + uri,
 		"--collection=" + collection,
 		"--drop",
@@ -37,7 +38,8 @@ func Import(uri, collection string, docs io.Reader, verbosity int) error {
 // Export reads documents from MongoDB with `mongoexport` and writes them to the provided writer.
 func Export(uri, collection string, docs io.Writer, verbosity int) error {
 	args := []string{
-		"docker", "compose", "exec", "mongodb", "mongoexport",
+		"docker", "compose", "exec", "-T",
+		"mongodb", "mongoexport",
 		"--uri=" + uri,
 		"--collection=" + collection,
 		"--jsonFormat=canonical",
