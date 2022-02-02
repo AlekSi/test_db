@@ -15,6 +15,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"golang.org/x/exp/maps"
+	"golang.org/x/exp/slices"
 )
 
 const (
@@ -102,6 +103,8 @@ func main() {
 	}
 
 	keys := maps.Keys(data)
+	slices.Sort(keys)
+
 	for _, key := range keys {
 		doc := bson.D{{"_id", mongodb.NewObjectID(key)}, {"value", data[key]}}
 		if _, err = collection.InsertOne(ctx, doc); err != nil {
