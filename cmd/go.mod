@@ -7,7 +7,7 @@ require (
 	github.com/jackc/pgx/v4 v4.14.1
 	github.com/lib/pq v1.10.4
 	go.mongodb.org/mongo-driver v1.8.3
-	golang.org/x/exp v0.0.0-20220128181451-c853b6ddb95e
+	golang.org/x/exp v0.0.0-20220205015713-f5f519d967d6
 	gopkg.in/reform.v1 v1.5.1
 )
 

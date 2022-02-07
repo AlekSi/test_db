@@ -30,3 +30,7 @@ func NewObjectID(id uint32) primitive.ObjectID {
 
 	return b
 }
+
+func SetObjectIDCounter(c uint32) {
+	atomic.StoreUint32(&objectIDCounter, c)
+}

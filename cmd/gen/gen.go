@@ -9,13 +9,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/AlekSi/test_db/cmd/internal/mongodb"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
+
+	"github.com/AlekSi/test_db/cmd/internal/mongodb"
 )
 
 const (
@@ -55,13 +56,19 @@ func main() {
 
 		0x0201: {name: "string", v: "foo"},
 		0x0202: {name: "string-empty", v: ""},
-		// 0x0203: "\x00",
+		0x0203: {name: "string-shorter", v: "z"},
+		0x0204: {name: "string-longer", v: "abcdefghijklmnopqrstuvwxyz"},
+		// 0x0205: {name: "string-nul", v: "\x00"},
 
 		0x0301: {name: "document", v: map[string]any{"document": 42}},
 		0x0302: {name: "document-empty", v: map[string]any{}},
+		0x0303: {name: "document-two", v: map[string]any{"document": 42.13, "foo": "bar"}},
+		0x0304: {name: "document-three", v: map[string]any{"document": int32(0), "baz": nil}},
 
 		0x0401: {name: "array", v: []any{"array", 42}},
 		0x0402: {name: "array-empty", v: []any{}},
+		0x0403: {name: "array-one", v: []any{42.13}},
+		0x0404: {name: "array-three", v: []any{42, "foo", nil}},
 
 		0x0501: {name: "binary", v: primitive.Binary{Subtype: 0x80, Data: []byte{42, 0, 13}}},
 		0x0502: {name: "binary-empty", v: primitive.Binary{}},
@@ -115,6 +122,9 @@ func main() {
 			log.Fatalf("duplicate name: %s", value.name)
 		}
 		names[value.name] = struct{}{}
+
+		// to keep IDs stable if we insert new documents in the middle
+		mongodb.SetObjectIDCounter(key - 1)
 
 		doc := bson.D{{"_id", mongodb.NewObjectID(key)}, {"name", value.name}, {"value", value.v}}
 		if _, err = collection.InsertOne(ctx, doc); err != nil {
