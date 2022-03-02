@@ -38,7 +38,7 @@ func Import(uri, collection string, docs io.Reader, verbosity int) error {
 // Export reads documents from MongoDB with `mongoexport` and writes them to the provided writer.
 func Export(uri, collection string, docs io.Writer, verbosity int) error {
 	args := []string{
-		"docker", "compose", "exec", "-T",
+		"docker-compose", "exec", "-T",
 		"mongodb", "mongoexport",
 		"--uri=" + uri,
 		"--collection=" + collection,
