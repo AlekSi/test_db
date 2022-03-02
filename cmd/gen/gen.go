@@ -69,6 +69,11 @@ func main() {
 		0x0402: {name: "array-empty", v: []any{}},
 		0x0403: {name: "array-one", v: []any{42.13}},
 		0x0404: {name: "array-three", v: []any{42, "foo", nil}},
+		0x0405: {name: "array-embedded", v: []any{
+			map[string]any{"document": "abc", "score": 42.13, "age": 1000},
+			map[string]any{"document": "def", "score": 42.13, "age": 1000},
+			map[string]any{"document": "jkl", "score": 24, "age": 1002},
+		}},
 
 		0x0501: {name: "binary", v: primitive.Binary{Subtype: 0x80, Data: []byte{42, 0, 13}}},
 		0x0502: {name: "binary-empty", v: primitive.Binary{}},
@@ -132,7 +137,11 @@ func main() {
 		}
 	}
 
-	f, err := os.Create(filepath.Join("..", "..", "mongodb", "values", "values.json"))
+	pwd, err := os.Getwd()
+	if err != nil {
+		log.Fatal(err)
+	}
+	f, err := os.Create(filepath.Join(pwd, "..", "mongodb", "values", "values.json"))
 	if err != nil {
 		log.Fatal(err)
 	}
