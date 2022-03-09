@@ -1,3 +1,4 @@
+{"_id":{"$oid":"612ec2800000003700000037"},"name":"document-six","value":[{"code":{"$numberInt":"121082"}},{"document":"zyx"}]}
 {"_id":{"$oid":"612ec2800000010100000101"},"name":"double","value":{"$numberDouble":"42.13"}}
 {"_id":{"$oid":"612ec2800000010200000102"},"name":"double-zero","value":{"$numberDouble":"0.0"}}
 {"_id":{"$oid":"612ec2800000010300000103"},"name":"double-max","value":{"$numberDouble":"1.7976931348623157E+308"}}
@@ -13,12 +14,8 @@
 {"_id":{"$oid":"612ec2800000030200000302"},"name":"document-empty","value":{}}
 {"_id":{"$oid":"612ec2800000030300000303"},"name":"document-two","value":{"document":{"$numberDouble":"42.13"},"foo":"bar"}}
 {"_id":{"$oid":"612ec2800000030400000304"},"name":"document-three","value":{"baz":null,"document":{"$numberInt":"0"}}}
-{"_id":{"$oid":"612ec2800000030500000305"},"name":"document-elemmatch1","value":{"games":[{"game":"abc","score":{"$numberInt":"5"}},{"game":"def","score":{"$numberInt":"8"}},{"score":{"$numberInt":"9"},"game":"xyz"}],"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}},"name":"John Doe","code":{"$numberInt":"121081"}}}
-{"_id":{"$oid":"612ec2800000030600000306"},"name":"document-elemmatch2","value":{"name":"Lorem Ipsum","code":{"$numberInt":"121081"},"games":[{"game":"abc","score":{"$numberInt":"3"}},{"game":"abc","score":{"$numberInt":"5"}}],"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}}}}
-{"_id":{"$oid":"612ec2800000030700000307"},"name":"document-elemmatch3","value":{"name":"Lorem Ipsum","code":{"$numberInt":"121081"},"games":[{"game":"abc","score":{"$numberInt":"8"}},{"game":"abc","score":{"$numberInt":"5"}}],"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}}}}
-{"_id":{"$oid":"612ec2800000030800000308"},"name":"document-elemmatch4","value":{"code":{"$numberInt":"121081"}}}
-{"_id":{"$oid":"612ec2800000030900000309"},"name":"document-elemmatch5","value":[{"code":{"$numberInt":"121081"}},{"document":"xyz"}]}
-{"_id":{"$oid":"612ec2800000031000000310"},"name":"document-elemmatch6","value":[{"code":{"$numberInt":"121082"}},{"document":"zyx"}]}
+{"_id":{"$oid":"612ec2800000030500000305"},"name":"document-four","value":{"code":{"$numberInt":"121081"}}}
+{"_id":{"$oid":"612ec2800000030600000306"},"name":"document-five","value":[{"code":{"$numberInt":"121081"}},{"document":"xyz"}]}
 {"_id":{"$oid":"612ec2800000040100000401"},"name":"array","value":["array",{"$numberInt":"42"}]}
 {"_id":{"$oid":"612ec2800000040200000402"},"name":"array-empty","value":[]}
 {"_id":{"$oid":"612ec2800000040300000403"},"name":"array-one","value":[{"$numberDouble":"42.13"}]}

@@ -65,50 +65,12 @@ func main() {
 		0x0303: {name: "document-two", v: map[string]any{"document": 42.13, "foo": "bar"}},
 		0x0304: {name: "document-three", v: map[string]any{"document": int32(0), "baz": nil}},
 
-		// for projection tests
-		// in projection tests only second nested array map where score > 5, shoud be returned
-		0x0305: {name: "document-elemmatch1", v: map[string]any{
-			"name": "John Doe",
-			"code": 121081,
-			"games": []any{
-				map[string]any{"game": "abc", "score": 5},
-				map[string]any{"game": "def", "score": 8},
-				map[string]any{"game": "xyz", "score": 9},
-			},
-			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
-			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		}},
-
-		// in projection tests prjection is score gt 5 - return joined date and last login only
-		0x0306: {name: "document-elemmatch2", v: map[string]any{
-			"name": "Lorem Ipsum",
-			"code": 121081,
-			"games": []any{
-				map[string]any{"game": "abc", "score": 3},
-				map[string]any{"game": "abc", "score": 5},
-			},
-			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
-			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		}},
-
-		// in projection tests, with combination with filter, should return the code field
-		0x0307: {name: "document-elemmatch3", v: map[string]any{
-			"name": "Lorem Ipsum",
-			"code": 121081,
-			"games": []any{
-				map[string]any{"game": "abc", "score": 8},
-				map[string]any{"game": "abc", "score": 5},
-			},
-			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
-			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		}},
-		// in projection tests, with combination with filter, this record is to be filtered out completely
-		0x0308: {name: "document-elemmatch4", v: map[string]any{"code": 121081}},
-		0x0309: {name: "document-elemmatch5", v: []any{
+		0x0305: {name: "document-four", v: map[string]any{"code": 121081}},
+		0x0306: {name: "document-five", v: []any{
 			map[string]any{"code": 121081},
 			map[string]any{"document": "xyz"},
 		}},
-		0x0310: {name: "document-elemmatch6", v: []any{
+		0x037: {name: "document-six", v: []any{
 			map[string]any{"code": 121082},
 			map[string]any{"document": "zyx"},
 		}},
