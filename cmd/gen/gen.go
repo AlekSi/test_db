@@ -70,7 +70,7 @@ func main() {
 			map[string]any{"code": 121081},
 			map[string]any{"document": "xyz"},
 		}},
-		0x037: {name: "document-six", v: []any{
+		0x0307: {name: "document-six", v: []any{
 			map[string]any{"code": 121082},
 			map[string]any{"document": "zyx"},
 		}},
