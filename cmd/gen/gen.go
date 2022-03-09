@@ -77,7 +77,7 @@ func main() {
 			},
 			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
 			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		},
+		}},
 
 		// in projection tests prjection is score gt 5 - return joined date and last login only
 		0x0306: {name: "document-elemmatch2", v: map[string]any{
@@ -89,21 +89,25 @@ func main() {
 			},
 			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
 			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		},
+		}},
 
-		// in projection tests, with combination with filter, this record is to be filtered out completely
+		// in projection tests, with combination with filter, should return the code field
 		0x0307: {name: "document-elemmatch3", v: map[string]any{
 			"name": "Lorem Ipsum",
-			"code": 121082,
+			"code": 121081,
 			"games": []any{
 				map[string]any{"game": "abc", "score": 8},
 				map[string]any{"game": "abc", "score": 5},
 			},
 			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
 			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
-		},
-		// in projection tests, with combination with filter, should return the code field
-		0x0308: {name: "document-elemmatch4", v: map[string]any{"code": 121081},
+		}},
+		// in projection tests, with combination with filter, this record is to be filtered out completely
+		0x0308: {name: "document-elemmatch4", v: map[string]any{"code": 121081}},
+		0x0309: {name: "document-elemmatch5", v: []any{
+			map[string]any{"code": 121081},
+			map[string]any{"document": "xyz"},
+		}},
 
 		0x0401: {name: "array", v: []any{"array", 42}},
 		0x0402: {name: "array-empty", v: []any{}},
