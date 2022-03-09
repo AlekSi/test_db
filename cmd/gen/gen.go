@@ -108,6 +108,10 @@ func main() {
 			map[string]any{"code": 121081},
 			map[string]any{"document": "xyz"},
 		}},
+		0x0310: {name: "document-elemmatch6", v: []any{
+			map[string]any{"code": 121082},
+			map[string]any{"document": "zyx"},
+		}},
 
 		0x0401: {name: "array", v: []any{"array", 42}},
 		0x0402: {name: "array-empty", v: []any{}},
