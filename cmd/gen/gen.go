@@ -70,8 +70,8 @@ func main() {
 		0x0403: {name: "array-one", v: []any{42.13}},
 		0x0404: {name: "array-three", v: []any{42, "foo", nil}},
 		0x0405: {name: "array-embedded", v: []any{
-			map[string]any{"document": "abc", "score": 42.13, "age": 999},
-			map[string]any{"document": "def", "score": 42.13, "age": 1000},
+			map[string]any{"document": "def", "score": 42.13, "age": 999},
+			map[string]any{"document": 42, "score": 42.13, "age": 999},
 			map[string]any{"document": "def", "score": 24, "age": 1002},
 		}},
 
