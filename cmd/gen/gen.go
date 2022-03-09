@@ -65,7 +65,7 @@ func main() {
 		0x0303: {name: "document-two", v: map[string]any{"document": 42.13, "foo": "bar"}},
 		0x0304: {name: "document-three", v: map[string]any{"document": int32(0), "baz": nil}},
 
-		0x0305: {name: "document-four", v: map[string]any{"code": 121081}},
+		0x0305: {name: "document-four", v: map[string]any{"code": 121080}},
 		0x0306: {name: "document-five", v: []any{
 			map[string]any{"code": 121081},
 			map[string]any{"document": "xyz"},
