@@ -64,7 +64,6 @@ func main() {
 		0x0302: {name: "document-empty", v: map[string]any{}},
 		0x0303: {name: "document-two", v: map[string]any{"document": 42.13, "foo": "bar"}},
 		0x0304: {name: "document-three", v: map[string]any{"document": int32(0), "baz": nil}},
-		0x0305: {name: "document-four", v: map[string]any{"code": 121080}},
 
 		0x0401: {name: "array", v: []any{"array", 42}},
 		0x0402: {name: "array-empty", v: []any{}},
@@ -73,10 +72,6 @@ func main() {
 		0x0405: {name: "array-four", v: []any{
 			map[string]any{"code": 121081},
 			map[string]any{"document": "xyz"},
-		}},
-		0x0406: {name: "array-five", v: []any{
-			map[string]any{"code": 121082},
-			map[string]any{"document": "zyx"},
 		}},
 
 		0x0501: {name: "binary", v: primitive.Binary{Subtype: 0x80, Data: []byte{42, 0, 13}}},

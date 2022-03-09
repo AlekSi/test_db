@@ -13,13 +13,11 @@
 {"_id":{"$oid":"612ec2800000030200000302"},"name":"document-empty","value":{}}
 {"_id":{"$oid":"612ec2800000030300000303"},"name":"document-two","value":{"document":{"$numberDouble":"42.13"},"foo":"bar"}}
 {"_id":{"$oid":"612ec2800000030400000304"},"name":"document-three","value":{"baz":null,"document":{"$numberInt":"0"}}}
-{"_id":{"$oid":"612ec2800000030500000305"},"name":"document-four","value":{"code":{"$numberInt":"121080"}}}
 {"_id":{"$oid":"612ec2800000040100000401"},"name":"array","value":["array",{"$numberInt":"42"}]}
 {"_id":{"$oid":"612ec2800000040200000402"},"name":"array-empty","value":[]}
 {"_id":{"$oid":"612ec2800000040300000403"},"name":"array-one","value":[{"$numberDouble":"42.13"}]}
 {"_id":{"$oid":"612ec2800000040400000404"},"name":"array-three","value":[{"$numberInt":"42"},"foo",null]}
 {"_id":{"$oid":"612ec2800000040500000405"},"name":"array-four","value":[{"code":{"$numberInt":"121081"}},{"document":"xyz"}]}
-{"_id":{"$oid":"612ec2800000040600000406"},"name":"array-five","value":[{"code":{"$numberInt":"121082"}},{"document":"zyx"}]}
 {"_id":{"$oid":"612ec2800000050100000501"},"name":"binary","value":{"$binary":{"base64":"KgAN","subType":"80"}}}
 {"_id":{"$oid":"612ec2800000050200000502"},"name":"binary-empty","value":{"$binary":{"base64":"","subType":"00"}}}
 {"_id":{"$oid":"612ec2800000080100000801"},"name":"bool-false","value":false}
