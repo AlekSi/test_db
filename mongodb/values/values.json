@@ -13,11 +13,14 @@
 {"_id":{"$oid":"612ec2800000030200000302"},"name":"document-empty","value":{}}
 {"_id":{"$oid":"612ec2800000030300000303"},"name":"document-two","value":{"document":{"$numberDouble":"42.13"},"foo":"bar"}}
 {"_id":{"$oid":"612ec2800000030400000304"},"name":"document-three","value":{"baz":null,"document":{"$numberInt":"0"}}}
+{"_id":{"$oid":"612ec2800000030500000305"},"name":"document-four","value":{"name":"John Doe","code":{"$numberInt":"121081"},"games":[{"game":"abc","score":{"$numberInt":"5"}},{"game":"def","score":{"$numberInt":"8"}},{"game":"xyz","score":{"$numberInt":"9"}}],"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}}}}
+{"_id":{"$oid":"612ec2800000030600000306"},"name":"document-five","value":{"name":"Lorem Ipsum","code":{"$numberInt":"121081"},"games":[{"game":"xyz","score":{"$numberInt":"3"}},{"score":{"$numberInt":"5"},"game":"abc"}],"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}}}}
+{"_id":{"$oid":"612ec2800000030700000307"},"name":"document-six","value":{"joined":{"$date":{"$numberLong":"1646092800000"}},"lastLogin":{"$date":{"$numberLong":"1647432794000"}},"name":"Lorem Ipsum","code":{"$numberInt":"121081"},"games":[{"score":{"$numberInt":"8"},"game":"abc"},{"score":{"$numberInt":"5"},"game":"abc"}]}}
 {"_id":{"$oid":"612ec2800000040100000401"},"name":"array","value":["array",{"$numberInt":"42"}]}
 {"_id":{"$oid":"612ec2800000040200000402"},"name":"array-empty","value":[]}
 {"_id":{"$oid":"612ec2800000040300000403"},"name":"array-one","value":[{"$numberDouble":"42.13"}]}
 {"_id":{"$oid":"612ec2800000040400000404"},"name":"array-three","value":[{"$numberInt":"42"},"foo",null]}
-{"_id":{"$oid":"612ec2800000040500000405"},"name":"array-four","value":[{"code":{"$numberInt":"121081"}},{"document":"xyz"}]}
+{"_id":{"$oid":"612ec2800000040500000405"},"name":"array-embedded","value":[{"document":"abc","score":{"$numberDouble":"42.13"},"age":{"$numberInt":"1000"}},{"document":"def","score":{"$numberDouble":"42.13"},"age":{"$numberInt":"1000"}},{"document":"jkl","score":{"$numberInt":"24"},"age":{"$numberInt":"1002"}}]}
 {"_id":{"$oid":"612ec2800000050100000501"},"name":"binary","value":{"$binary":{"base64":"KgAN","subType":"80"}}}
 {"_id":{"$oid":"612ec2800000050200000502"},"name":"binary-empty","value":{"$binary":{"base64":"","subType":"00"}}}
 {"_id":{"$oid":"612ec2800000080100000801"},"name":"bool-false","value":false}

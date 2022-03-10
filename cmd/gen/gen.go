@@ -64,14 +64,46 @@ func main() {
 		0x0302: {name: "document-empty", v: map[string]any{}},
 		0x0303: {name: "document-two", v: map[string]any{"document": 42.13, "foo": "bar"}},
 		0x0304: {name: "document-three", v: map[string]any{"document": int32(0), "baz": nil}},
+		0x0305: {name: "document-four", v: map[string]any{
+			"name": "John Doe",
+			"code": 121081,
+			"games": []any{
+				map[string]any{"game": "abc", "score": 5},
+				map[string]any{"game": "def", "score": 8},
+				map[string]any{"game": "xyz", "score": 9},
+			},
+			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
+			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
+		}},
+		0x0306: {name: "document-five", v: map[string]any{
+			"name": "Lorem Ipsum",
+			"code": 121081,
+			"games": []any{
+				map[string]any{"game": "xyz", "score": 3},
+				map[string]any{"game": "abc", "score": 5},
+			},
+			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
+			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
+		}},
+		0x0307: {name: "document-six", v: map[string]any{
+			"name": "Lorem Ipsum",
+			"code": 121081,
+			"games": []any{
+				map[string]any{"game": "abc", "score": 8},
+				map[string]any{"game": "abc", "score": 5},
+			},
+			"joined":    time.Date(2022, 03, 01, 0, 0, 0, 0, time.UTC),
+			"lastLogin": time.Date(2022, 03, 16, 12, 13, 14, 0, time.UTC),
+		}},
 
 		0x0401: {name: "array", v: []any{"array", 42}},
 		0x0402: {name: "array-empty", v: []any{}},
 		0x0403: {name: "array-one", v: []any{42.13}},
 		0x0404: {name: "array-three", v: []any{42, "foo", nil}},
-		0x0405: {name: "array-four", v: []any{
-			map[string]any{"code": 121081},
-			map[string]any{"document": "xyz"},
+		0x0405: {name: "array-embedded", v: []any{
+			map[string]any{"document": "abc", "score": 42.13, "age": 1000},
+			map[string]any{"document": "def", "score": 42.13, "age": 1000},
+			map[string]any{"document": "jkl", "score": 24, "age": 1002},
 		}},
 
 		0x0501: {name: "binary", v: primitive.Binary{Subtype: 0x80, Data: []byte{42, 0, 13}}},
