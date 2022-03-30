@@ -12,7 +12,7 @@
 {"_id":{"$oid":"612ec2800000030100000301"},"name":"document","value":{"document":{"$numberInt":"42"}}}
 {"_id":{"$oid":"612ec2800000030200000302"},"name":"document-empty","value":{}}
 {"_id":{"$oid":"612ec2800000030300000303"},"name":"document-two","value":{"document":{"$numberDouble":"42.13"},"foo":"bar"}}
-{"_id":{"$oid":"612ec2800000030400000304"},"name":"document-three","value":{"baz":null,"document":{"$numberInt":"0"}}}
+{"_id":{"$oid":"612ec2800000030400000304"},"name":"document-three","value":{"document":{"$numberInt":"0"},"baz":null}}
 {"_id":{"$oid":"612ec2800000040100000401"},"name":"array","value":["array",{"$numberInt":"42"}]}
 {"_id":{"$oid":"612ec2800000040200000402"},"name":"array-empty","value":[]}
 {"_id":{"$oid":"612ec2800000040300000403"},"name":"array-one","value":[{"$numberDouble":"42.13"}]}
