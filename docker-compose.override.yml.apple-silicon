@@ -1,0 +1,6 @@
+---
+# Rename to `docker-compose.override.yml` to make it work on Apple Silicon Macs.
+
+services:
+  mysql:
+    platform: linux/amd64
